@@ -8,9 +8,6 @@ WORKDIR /usr/src/app
 # Crear un directorio para los archivos de salida como root
 RUN mkdir -p /usr/src/app/output
 
-# Cambiar la propiedad del directorio a node
-RUN chown -R node:node /usr/src/app/output
-
 COPY package*.json ./
 RUN npm ci
 COPY . .
