@@ -2,7 +2,7 @@
 import puppeteer from "puppeteer";
 import XLSX from "xlsx"; // Importa la biblioteca xlsx
 
-(async () => {
+/* (async () => {
 	// Inicializa el navegador
 	const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
 	const page = await browser.newPage();
@@ -128,3 +128,4 @@ import XLSX from "xlsx"; // Importa la biblioteca xlsx
 	console.log("Cerrando el navegador...");
 	await browser.close();
 })();
+ */
