@@ -137,10 +137,10 @@ export const scrapperMercadoLibre2 = async (res) => {
 			console.log("Datos extraídos:", allProducts);
 			console.log("Cantidad:", allProducts.length);
 			// Exportar a Excel
-			const ws = XLSX.utils.json_to_sheet(allProducts); // Convierte los datos a una hoja de Excel
-			const wb = XLSX.utils.book_new(); // Crea un nuevo libro de trabajo
-			XLSX.utils.book_append_sheet(wb, ws, "Productos"); // Agrega la hoja al libro
-			XLSX.writeFile(wb, "productos.xlsx"); // Escribe el archivo Excel
+			const ws = XLSX.utils.json_to_sheet(allProducts); 
+			const wb = XLSX.utils.book_new(); 
+			XLSX.utils.book_append_sheet(wb, ws, "Productos"); 
+			XLSX.writeFile(wb, "productos.xlsx"); 
 			console.log("Datos exportados a productos.xlsx");
 
 			res.send(`Se extrajeron ${allProducts.length} productos de Mercado Libre y se exportaron al archivo de Excel productos.xlsx`)
