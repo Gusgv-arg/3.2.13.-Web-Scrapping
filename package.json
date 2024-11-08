@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "3.2.13.-web-scrapping",
+  "version": "1.0.0",
+  "main": "scrapperMercadoLibre.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
