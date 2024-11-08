@@ -5,8 +5,11 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 
 WORKDIR /usr/src/app
 
-# Crear un directorio para los archivos de salida y establecer permisos
-RUN mkdir -p /usr/src/app/output && chown -R node:node /usr/src/app/output
+# Crear un directorio para los archivos de salida como root
+RUN mkdir -p /usr/src/app/output
+
+# Cambiar la propiedad del directorio a node
+RUN chown -R node:node /usr/src/app/output
 
 COPY package*.json ./
 RUN npm ci
