@@ -4,7 +4,26 @@ import XLSX from "xlsx";
 
 dotenv.config();
 
+let isScraping = false; // Variable de bloqueo
+
 export const scrapperMercadoLibre2 = async (res) => {
+	if (isScraping) {
+		console.log("El scraping ya está en ejecución. Ignorando la nueva solicitud.");
+		return; // Salir si ya se está ejecutando
+	}
+	isScraping = true; // Establecer el bloqueo
+
+	try {
+		// ... código de scraping ...
+	} catch (error) {
+		console.log("Error corriendo Puppeteer:", error);
+	} finally {
+		isScraping = false; // Liberar el bloqueo
+		// Cierra el navegador
+		console.log("Cerrando el navegador...");
+		await browser.close();
+	}
+	
 	// Inicializa el navegador
 	//const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
 	const browser = await puppeteer.launch({
@@ -36,7 +55,7 @@ export const scrapperMercadoLibre2 = async (res) => {
 	try {
 		for (const url of urls) {
 			console.log(`Navegando a la URL: ${url}`);
-			await page.goto(url, { waitUntil: "networkidle2" });
+			await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
 
 			// Ingresa en la barra de búsqueda
 			/* console.log("Ingresando la búsqueda");
