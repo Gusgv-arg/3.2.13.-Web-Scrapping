@@ -1,24 +1,24 @@
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 import puppeteer from "puppeteer";
-import XLSX from "xlsx"; 
+import XLSX from "xlsx";
 
-dotenv.config()
+dotenv.config();
 
 export const scrapperMercadoLibre2 = async (res) => {
 	// Inicializa el navegador
 	//const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
 	const browser = await puppeteer.launch({
 		args: [
-		  "--disable-setuid-sandbox",
-		  "--no-sandbox",
-		  "--single-process",
-		  "--no-zygote",
+			"--disable-setuid-sandbox",
+			"--no-sandbox",
+			"--single-process",
+			"--no-zygote",
 		],
 		executablePath:
-		  process.env.NODE_ENV === "production"
-			? process.env.PUPPETEER_EXECUTABLE_PATH
-			: puppeteer.executablePath(),
-	  });
+			process.env.NODE_ENV === "production"
+				? process.env.PUPPETEER_EXECUTABLE_PATH
+				: puppeteer.executablePath(),
+	});
 	const page = await browser.newPage();
 
 	/* const urls = [
@@ -37,16 +37,18 @@ export const scrapperMercadoLibre2 = async (res) => {
 		for (const url of urls) {
 			console.log(`Navegando a la URL: ${url}`);
 			await page.goto(url, { waitUntil: "networkidle2" });
-	
+
 			// Ingresa en la barra de búsqueda
 			/* console.log("Ingresando la búsqueda");
 			await page.type('input[name="as_word"]', "blitz 110");
 			await page.click('button[type="submit"]'); */
-	
+
 			// Espera a que los resultados se carguen
-			console.log("Esperando a que los resultados de la búsqueda se carguen...");
+			console.log(
+				"Esperando a que los resultados de la búsqueda se carguen..."
+			);
 			await page.waitForSelector("ol.ui-search-layout", { timeout: 15000 });
-	
+
 			// Verifica si los resultados están presentes
 			const resultadosDisponibles = await page.$("ol.ui-search-layout");
 			if (resultadosDisponibles) {
@@ -59,7 +61,7 @@ export const scrapperMercadoLibre2 = async (res) => {
 				);
 				continue; // Salta a la siguiente URL
 			}
-	
+
 			do {
 				// Realiza el scraping de cada aviso
 				const products = await page.evaluate(() => {
@@ -68,7 +70,7 @@ export const scrapperMercadoLibre2 = async (res) => {
 						"ol.ui-search-layout.ui-search-layout--grid > li.ui-search-layout__item"
 					);
 					let data = [];
-	
+
 					// Itera sobre los resultados para extraer la información relevante
 					resultados.forEach((resultado) => {
 						const titulo =
@@ -93,12 +95,12 @@ export const scrapperMercadoLibre2 = async (res) => {
 									".poly-component__attributes-list .poly-attributes-list__item"
 								)
 							).map((attr) => attr.innerText) || [];
-	
+
 						// Filtra solo los resultados que contengan "0 Km" en sus atributos
 						const esNuevo = atributos.filter(
 							(attr) => attr.trim() === "2024, 0 Km"
 						);
-	
+
 						if (titulo && precio && link && esNuevo) {
 							data.push({
 								titulo,
@@ -112,47 +114,70 @@ export const scrapperMercadoLibre2 = async (res) => {
 					});
 					return data;
 				});
-	
+
 				allProducts = allProducts.concat(products); // Acumula los resultados
-	
+
 				// Verifica si hay un botón de "Siguiente" y haz clic en él
 				const siguienteBoton = await page.$('a[title="Siguiente"]'); // Selector del botón "Siguiente"
-	
+
 				if (siguienteBoton) {
-					try {
-						await siguienteBoton.click(); // Haz clic en el botón "Siguiente"
-						await page.waitForTimeout(2000); // Espera un poco para que la nueva página cargue
-					} catch (error) {
-						console.error("Error al hacer clic en el botón 'Siguiente':", error);
-						break; // Sal del bucle si hay un error
+					// Verifica si el botón está habilitado
+					const isDisabled = await page.evaluate((element) => {
+						return element
+							.closest("li")
+							.classList.contains("andes-pagination__button--disabled");
+					}, siguienteBoton);
+
+					if (!isDisabled) {
+						try {
+							// Desplazarse a la vista del botón
+							await page.evaluate((element) => {
+								element.scrollIntoView();
+							}, siguienteBoton);
+
+							// Hacer clic en el botón "Siguiente" y esperar a que la navegación se complete
+							await Promise.all([
+								siguienteBoton.click(), // Haz clic en el botón "Siguiente"
+								page.waitForNavigation({ waitUntil: "networkidle2" }), // Espera a que la navegación se complete
+							]);
+
+							await page.waitForTimeout(2000); // Espera un momento para que la nueva página cargue
+						} catch (error) {
+							console.error(
+								"Error al hacer clic en el botón 'Siguiente':",
+								error
+							);
+							break; // Sal del bucle si hay un error
+						}
+					} else {
+						console.log(
+							"El botón 'Siguiente' está deshabilitado. No se puede hacer clic."
+						);
+						break; // Sal del bucle si el botón está deshabilitado
 					}
 				} else {
+					console.log("No se encontró el botón 'Siguiente'.");
 					break; // Si no hay botón "Siguiente", sal del bucle
 				}
 			} while (true);
 		}
-	
+
 		// Muestra los datos extraídos en la consola
 		if (allProducts.length > 0) {
 			console.log("Datos extraídos:", allProducts);
 			console.log("Cantidad:", allProducts.length);
-			// Exportar a Excel
-			/* const ws = XLSX.utils.json_to_sheet(allProducts); 
-			const wb = XLSX.utils.book_new(); 
-			XLSX.utils.book_append_sheet(wb, ws, "Productos"); 
-			XLSX.writeFile(wb, "output/productos.xlsx"); 
-			console.log("Datos exportados a productos.xlsx"); */
-
-			res.send(allProducts)
+			
+			res.send(allProducts);
 		} else {
 			console.warn(
 				"No se encontraron datos para extraer. Verifique los selectores o los resultados de la búsqueda."
 			);
-			res.send(`No se extrajeron productos de Mercado Libre. Hay que revizar los selectores`)
+			res.send(
+				`No se extrajeron productos de Mercado Libre. Hay que revizar los selectores`
+			);
 		}
-	
 	} catch (error) {
-		console.log("Error corriendo Puppeteer:", error)
+		console.log("Error corriendo Puppeteer:", error);
 	} finally {
 		// Cierra el navegador
 		console.log("Cerrando el navegador...");
