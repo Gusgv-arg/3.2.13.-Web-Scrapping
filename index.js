@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 app.get("/scrape/mercado_libre", (req, res) => {
+  console.log("Api de Scrapping llamada!!")
   scrapperMercadoLibre2(res);
 });
 

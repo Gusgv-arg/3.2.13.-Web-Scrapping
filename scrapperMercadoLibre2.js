@@ -12,18 +12,7 @@ export const scrapperMercadoLibre2 = async (res) => {
 		return; // Salir si ya se está ejecutando
 	}
 	isScraping = true; // Establecer el bloqueo
-
-	try {
-		// ... código de scraping ...
-	} catch (error) {
-		console.log("Error corriendo Puppeteer:", error);
-	} finally {
-		isScraping = false; // Liberar el bloqueo
-		// Cierra el navegador
-		console.log("Cerrando el navegador...");
-		await browser.close();
-	}
-	
+		
 	// Inicializa el navegador
 	//const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
 	const browser = await puppeteer.launch({
