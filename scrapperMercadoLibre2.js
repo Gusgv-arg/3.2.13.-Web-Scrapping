@@ -7,7 +7,8 @@ dotenv.config();
 let isScraping = false; // Variable de bloqueo
 
 export const scrapperMercadoLibre2 = async (res) => {
-	if (isScraping) {
+	console.log("isScraping:", isScraping)
+	if (isScraping === true) {
 		console.log("El scraping ya está en ejecución. Ignorando la nueva solicitud.");
 		return; // Salir si ya se está ejecutando
 	}
