@@ -189,6 +189,7 @@ export const scrapperMercadoLibre2 = async (res) => {
 	} finally {
 		// Cierra el navegador
 		console.log("Cerrando el navegador...");
+		isScraping = false;
 		await browser.close();
 	}
 };
