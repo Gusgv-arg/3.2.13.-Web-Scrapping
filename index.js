@@ -8,7 +8,6 @@ let contador = 1
 app.get("/scrape/mercado_libre", async (req, res) => {
   console.log("Api de Scrapping llamada numero:", contador)
   contador ++
-  console.log("req:", req)
   const allProducts = await scrapperMercadoLibre2();
   res.status(200).send(allProducts)
 });
