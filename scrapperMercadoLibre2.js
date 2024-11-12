@@ -6,7 +6,7 @@ dotenv.config();
 
 let isScraping = false; // Variable de bloqueo
 
-export const scrapperMercadoLibre2 = async (res) => {
+export const scrapperMercadoLibre2 = async () => {
 	console.log("isScraping:", isScraping)
 	if (isScraping === true) {
 		console.log("El scraping ya está en ejecución. Ignorando la nueva solicitud.");
@@ -174,16 +174,13 @@ export const scrapperMercadoLibre2 = async (res) => {
 		// Muestra los datos extraídos en la consola
 		if (allProducts.length > 0) {
 			console.log("Datos extraídos:", allProducts);
-			console.log("Cantidad:", allProducts.length);
-			
-			res.send(allProducts);
+			console.log("Cantidad:", allProducts.length);			
+			return allProducts;
 		} else {
 			console.warn(
 				"No se encontraron datos para extraer. Verifique los selectores o los resultados de la búsqueda."
 			);
-			res.send(
-				`No se extrajeron productos de Mercado Libre. Hay que revizar los selectores`
-			);
+			return allProducts;			
 		}
 	} catch (error) {
 		console.log("Error corriendo Puppeteer:", error);

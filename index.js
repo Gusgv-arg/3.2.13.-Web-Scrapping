@@ -5,9 +5,11 @@ const app = express();
 
 const PORT = process.env.PORT || 4000;
 
-app.get("/scrape/mercado_libre", (req, res) => {
+app.get("/scrape/mercado_libre", async (req, res) => {
   console.log("Api de Scrapping llamada!!")
-  scrapperMercadoLibre2(res);
+  console.log("req:", req)
+  const allProducts = await scrapperMercadoLibre2();
+  res.status(200).send(allProducts)
 });
 
 app.get("/", (req, res) => {
