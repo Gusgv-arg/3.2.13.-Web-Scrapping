@@ -7,16 +7,17 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 let contador = 1
 app.get("/scrape/mercado_libre", async (req, res) => {
-  console.log("Api de Scrapping llamada numero:", contador)
+  console.log("Api de Scrapping Mercado Libre:", contador)
   contador ++
   const allProducts = await scrapperMercadoLibre();
   res.status(200).send(allProducts)
 });
 
 app.get("/scrape/facebook", async (req, res) => {
-  console.log("Api de Scrapping llamada numero:", contador)
+  console.log("Api de Scrapping Facebook:", contador)
   contador ++
   const allProducts = await apifyFacebookScraper();
+  console.log("Allproducts:", allProducts)
   res.status(200).send(allProducts)
 });
 

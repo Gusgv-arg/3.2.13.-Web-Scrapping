@@ -1,8 +1,10 @@
 import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
+import dotenv from "dotenv"
 
+const token = process.env.APIFY_TOKEN
 const client = new ApifyClient({
-	token: "apify_api_dlX9xHKkHFTQwc4Zy5obbKHdeAo88P2PHgsS",
+	token: token,
 });
 
 export const apifyFacebookScraper = async () => {
@@ -43,8 +45,9 @@ export const apifyFacebookScraper = async () => {
 		});
 
 		console.log("results:", results);
+		return results
 
-		// Crear un nuevo libro de Excel
+		/* // Crear un nuevo libro de Excel
 		const workbook = new ExcelJS.Workbook();
 
 		// Inicializar la fila donde comenzaremos a agregar resultados
@@ -127,7 +130,7 @@ export const apifyFacebookScraper = async () => {
 		// Guardar el archivo de Excel
 		const facebookAds = await workbook.xlsx.writeFile("Avisos Facebook.xlsx");
 		console.log("Archivo de Excel creado: Avisos Facebook.xlsx y enviado");
-		return facebookAds
+		return facebookAds */
 	} catch (error) {
 		console.log("Error-->", error.message);
 		return error.message
