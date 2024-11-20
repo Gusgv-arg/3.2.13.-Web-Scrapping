@@ -2,6 +2,8 @@ import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
 import dotenv from "dotenv"
 
+dotenv.config()
+
 const token = process.env.APIFY_TOKEN
 const client = new ApifyClient({
 	token: token,
