@@ -16,7 +16,7 @@ export const apifyFacebookScraper = async () => {
 		const input = {
 			startUrls: [
 				{
-					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=279264781934509",
+					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=173245975874895",
 				},
 				{
 					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=image_and_meme&search_type=page&view_all_page_id=289127913034",
@@ -29,8 +29,8 @@ export const apifyFacebookScraper = async () => {
 
 		// Fetch and print Actor results from the run's dataset (if any)
 		const { items } = await client.dataset(run.defaultDatasetId).listItems();
-		console.log("ITEMS:", items)
-		
+		//console.log("ITEMS:", items)
+
 		items.forEach((item) => {
 			console.log("item:",item);
 			const name = item.pageInfo.page.name;
