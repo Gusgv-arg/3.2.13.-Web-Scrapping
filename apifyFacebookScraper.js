@@ -29,12 +29,14 @@ export const apifyFacebookScraper = async () => {
 
 		// Fetch and print Actor results from the run's dataset (if any)
 		const { items } = await client.dataset(run.defaultDatasetId).listItems();
+		console.log("ITEMS:", items)
+		
 		items.forEach((item) => {
-			console.dir(item);
+			console.log("item:",item);
 			const name = item.pageInfo.page.name;
-			const text = item.snapshot.body.text ? item.snapshot.body.text : "";
-			const cards = item.snapshot.cards || [];
-			const images = item.snapshot.images || [];
+			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "";
+			const cards = item?.snapshot?.cards ?  item.snapshot.cards : [];
+			const images = item?.snapshot?.images ? item.snapshot.images : [];
 
 			// Unificar las constantes cards e images
 			const unifiedImages = [...images, ...cards];
