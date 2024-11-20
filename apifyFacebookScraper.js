@@ -5,7 +5,7 @@ const client = new ApifyClient({
 	token: "apify_api_dlX9xHKkHFTQwc4Zy5obbKHdeAo88P2PHgsS",
 });
 
-export const apifyScraper = async () => {
+export const apifyFacebookScraper = async () => {
 	const results = [];
 
 	try {
@@ -133,4 +133,4 @@ export const apifyScraper = async () => {
 		return error.message
 	}
 };
-//apifyScraper();
+//apifyFacebookScraper();
