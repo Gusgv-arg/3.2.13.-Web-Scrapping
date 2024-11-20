@@ -4,9 +4,9 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-const token = process.env.APIFY_TOKEN
+//const token = process.env.APIFY_TOKEN
 const client = new ApifyClient({
-	token: token,
+	token: "apify_api_dlX9xHKkHFTQwc4Zy5obbKHdeAo88P2PHgsS",
 });
 
 export const apifyFacebookScraper = async () => {
