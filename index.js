@@ -1,5 +1,5 @@
 import express from "express";
-import {scrapperMercadoLibre2} from "./scrapperMercadoLibre2.js"
+import { scrapperMercadoLibre } from "./scrapperMercadoLibre.js";
 
 const app = express();
 
@@ -8,7 +8,7 @@ let contador = 1
 app.get("/scrape/mercado_libre", async (req, res) => {
   console.log("Api de Scrapping llamada numero:", contador)
   contador ++
-  const allProducts = await scrapperMercadoLibre2();
+  const allProducts = await scrapperMercadoLibre();
   res.status(200).send(allProducts)
 });
 

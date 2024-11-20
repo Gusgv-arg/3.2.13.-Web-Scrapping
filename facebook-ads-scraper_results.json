@@ -1,0 +1,4152 @@
+[{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1911326743025545",
+  "startDateFormatted": "2024-11-07T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1911326743025545",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 5,
+  "collationId": "850176510615512",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465980353_531419489780550_3819368444269478334_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1MD-UWkCLCQQ7kNvgHJXf9Z&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD5I0YS-3L9jZINqjtMIE9FHMsGFziCNvL9ZogZK-nzPg&oe=6740251E",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466328364_554752080476210_7064795590591762991_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QV2mvHS3EsQQ7kNvgHehAOH&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDgMt1XoSmEmv0yIm2hte3Z03A8d2QLJx8OY5-Qh2Qc0w&oe=6740309B",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465819278_560592803284933_926530461198545287_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sTAyIfhYjq4Q7kNvgF4LeP3&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCWMs7vIsnGINyPOz3RiT02HGStTrVj0VoNk4Ak3tIkYQ&oe=67401664",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465928034_359635977236855_8569906123615727506_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YH1AUavvBC4Q7kNvgGrOFeu&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAPT_byawDuHQTZwciuRpA6z8vCfhiDEMeG3Y08sOiKeg&oe=6740214E",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465898476_886689943599972_1652788866050405733_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=K0Ce8NZZWP4Q7kNvgFAz8UA&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAjF7tX0H7FqdwRKv5u9afERPbymPWL7AWQGN8ch5K-1Q&oe=67400213",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465978060_560636706908541_4665425906496982888_n.jpg?stp=dst-jpg_s600x600&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=T2x52gmZ4L4Q7kNvgFDrJQR&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAOshg9NcxN5tC2vOfn2tia3dkoIMRQuScZjmhJyUOsfQ&oe=67400FCE",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465892669_1108634300656843_3667859642785513786_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9aPLCcfNGXsQ7kNvgFg5nDv&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBAE1UPJdHAFrsE_UTRQArP82AgQlUtkFgBBnOX6qv-Jw&oe=67400817",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466113304_454964837611427_5694081074891940930_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IJMb-UTVC-MQ7kNvgG6VR9Y&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAiVyqhfJgC6DQDK9rkDW4yV2K13bwSIaMwW79ozC-0eg&oe=673FFFD3",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465991599_1620613375498612_8895917449714188371_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rl7EnLGZLngQ7kNvgFiC-Ga&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCpH-2SGg11M2eSv6SFSGh6GpMsTtG9t7c9-pKwrL6E3w&oe=67400CE6",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465903332_2325680194452411_7703990653712762515_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hFlS_O6y-0wQ7kNvgFkTDgi&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDk2Xii12tvrPBzK17LVFl-m5f1lWqHIsN3v-xVrW8Eaw&oe=674000DC",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465777038_418710937953503_7371059338685381913_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Xr48JU6R6hYQ7kNvgGR1laS&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC_qVBP036M4IVrUlmfTrlqsIRrM3mlvTPaaz8EPVqRlw&oe=674026C8",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465977831_535957792510575_777939339203700216_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uRoQU9ZZTSoQ7kNvgH-CQYJ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCnZEzgjY4I_B2iI5pLzFcBOaC4tMqtz4r5l9OJ5U2yuw&oe=67402741",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465892160_1711913529351781_6587895142862412373_n.jpg?stp=dst-jpg_s60x60&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oGTjyngB2RsQ7kNvgGDAu9m&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDaVr88VlbzM6eqx2tjWPlCzxK0D1MUSxu9AM6wJiGqcQ&oe=67402128",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1730966400,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgEb6w7j&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=A7SaCTQNMoM0gVexqyRCGs1&oh=00_AYAnpch3rD7cWsmTy3lH4bzM3VP5UYi7hQoS5UcYJ6WKQQ&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgGvNzsH&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=A7SaCTQNMoM0gVexqyRCGs1&oh=00_AYAxDh-iSdYz_mhuT19e42fzPZKLbUCFotgBS64EGIl5tw&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "451081378096205",
+  "startDateFormatted": "2024-11-07T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "451081378096205",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": null,
+  "collationId": "850176510615512",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466130270_1501695523822514_8328542804436755413_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=s7fgvR_BEE0Q7kNvgHdxd3R&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCVmwO_L5-uFbgejFRtD5ZdBl_dQfaMCoBcx28wMfJfhQ&oe=673FFB4C",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465818772_803409448500762_5131343802567287256_n.jpg?stp=dst-jpg_s600x600&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UKNsdyyTxvUQ7kNvgHRUcfH&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD6yDELd9zFy3C66fHCfamhZnyVcUGb-M78MU0oHs7H-Q&oe=67400C28",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466079733_1072105991212880_7688775112967310141_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TS5n-9Ju9BcQ7kNvgG6iM4j&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCEDxafrtrKN-PJanx-uqsviPgaM68sqIfP5OdhOh5Vjw&oe=67400BD5",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465970474_413824458491040_7906632169068650372_n.jpg?stp=dst-jpg_s600x600&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KH6jEOXwNhUQ7kNvgH89rjg&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAYtEVy_OLtxnrD8fSIwrKnneetRfyDoilAgvaSzCzpdw&oe=67402AC2",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465779449_1098670288672075_296576495557855546_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mI2XKj1zQbUQ7kNvgGF5uuJ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDbgt2iceiio4Hzpk5Y1vrpcquukXFYkgOZ8xgT5FkmpQ&oe=67401B4A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466093314_1800776640671028_1579000413291073076_n.jpg?stp=dst-jpg_s600x600&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G-TtH9UpAQAQ7kNvgHIKgb-&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCbFz-nekcyXVNEsfSGRk-iNZLGmKyG4l3dpOIo6AfBEQ&oe=67400EF8",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465860407_577007998036109_430221342011705926_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Vs3s0l6zrfUQ7kNvgFxZJul&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCH5o_095Ee1IxIBFpk01tVwR9NXGhNUoiFUek_P7h6WA&oe=674003A5",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465778643_1064674072117221_528268495701480280_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CFNaaMCYReUQ7kNvgE0Qhc-&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDnhJAfg6QXO8LYJwrpyf6Fj4izpMDL-1_VJfHgJfaLzA&oe=67403101",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465800910_1078068890688227_6713738037084951538_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lddMruQKoasQ7kNvgHePcDH&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYABcp7qPxXthWsT50U2b1Xr4GAvIiVs93MputUPXtR97g&oe=6740054B",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466010231_1304043940533657_3779731940376404837_n.jpg?stp=dst-jpg_s600x600&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=to4sDYEsu_wQ7kNvgG9mqUK&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCQcx22QPYh5Zf7UKRxlZ_5BiMuqdJtBN9_X8R1S70LRw&oe=674008E2",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465996318_1060649268934033_1788878661736587838_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Rr8XqaMt-AcQ7kNvgFYhDhT&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBIQeH4vW0snMPH07GniidykITEfBhFuRfmkilINBh_Ng&oe=674010A2",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466021361_2272712146418778_1648720507068009393_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ad5biBTPOQ0Q7kNvgFlbYig&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYA8QainJnN4ibbBzubpPhSe6IEf7Mu1nbhk2UYhouX6uw&oe=673FFA55",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466083456_924908725673545_3850446314088274682_n.jpg?stp=dst-jpg_s60x60&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jZjKTiH6eRMQ7kNvgEHcLDs&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBEEbBi48rFm8lR2L645n6w38Esp-3SNRLDG-0Q61iozA&oe=67400001",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1730966400,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-mrs2-1.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgGIIFOw&_nc_zt=23&_nc_ht=scontent-mrs2-1.xx&_nc_gid=AU_H0CDWzYu2aO06xjJkcLF&oh=00_AYBtbdYQbV4iMds31sfpya4aYW70uTAsFtMZh-ranITNvA&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-mrs2-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgHc3lyz&_nc_zt=24&_nc_ht=scontent-mrs2-2.xx&_nc_gid=AU_H0CDWzYu2aO06xjJkcLF&oh=00_AYChsDsRZgFTmcReqo8ynoBwIN3Gi1C6pcGPqqao-ZD9YA&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "588371060199474",
+  "startDateFormatted": "2024-11-11T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "588371060199474",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1104120114668468",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466425547_1259485685101431_7539863377947609186_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0rrOG1EVkAYQ7kNvgGcyr89&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBY3N7x1ok0O9d2lusN9wY61PAo9_BB7t4uRtYa05Yz4w&oe=673FFB48",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466382500_586503057161431_8754126757201910454_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7lP1w4QyxBEQ7kNvgHpAObP&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYClmlX3mR_KnKu0yvpxnx2KfpaOAo4qCLkSCytoB47L4A&oe=674027A6",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466392363_1124387615774533_1579725269192141885_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=OBcWouYreGYQ7kNvgF190g_&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDjpuX9NULiAzmXMi_cHmUXxQTqfTGsaR47rSHZNyMBNg&oe=67401066",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466412045_1247933419741905_1558864333587734442_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=S-fLhmOnymcQ7kNvgHeMQ4K&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAF7RayZtl6q5FIjGmd2cmCILY094OOzUHOwWdBcOT4Dg&oe=67401C34",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466450064_855464203336581_8670247106220056877_n.jpg?stp=dst-jpg_s60x60&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uoHvibjC4d4Q7kNvgHS4z0Q&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAoVtv5z0ehK4r7HSK3nlZ2o_sJJ9aiaEmiE6vmpee1dw&oe=67401040",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "Chatea con nosotros",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1731312000,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgELu8ap&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=AxAaDEjFStyYmp2SBLNEMXW&oh=00_AYAZYbsEUlkRuNEzI0A9XmGGPAE2vz4OIr-JzBozWYLIow&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgFHW851&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=AxAaDEjFStyYmp2SBLNEMXW&oh=00_AYAZZVLj3WVSE82ZsXnQLrYYpdqmJvgevg5nAbafJDPEbg&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "913761690680291",
+  "startDateFormatted": "2024-10-24T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "913761690680291",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1195938624825803",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464379058_2129311507485901_501611145577128810_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=J6FxOcoC9ioQ7kNvgFCabSv&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBBTAt_5nGRPvQH_qEd0xIUTPPrQx7QNyu6OONKeDWFIA&oe=67402C7A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464475904_347464731787470_5416116056948367043_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gbkO451aUE4Q7kNvgFaYTFo&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDDqq3g6dviY4Paqu3_v3Z648xTqX9i-KcCjLAnZJvQpQ&oe=6740027E",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464519944_1777867992949842_7185871279837534589_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=osSj16G8MIoQ7kNvgGvxr3x&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBZTaIcvLNvGVW5dn2hQVCMWtUr_ZffSlPhV-RhDnQZPg&oe=67402DD8",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464386022_3947548268824306_7018036319579455381_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TdGX6PJYubcQ7kNvgH4gC3k&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDIE2XLZDP05RfJGwyXpgKsJ6coq_PHqApb55vd2ejUNg&oe=674008ED",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464420208_1248977636254045_2998443244533143665_n.jpg?stp=dst-jpg_s60x60&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2DwHACii5ZwQ7kNvgFdNGiq&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC3zkHvlAeB-40r8pTpzrLZT1bseWmy1kjSk83bnfuDDA&oe=67401A5E",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729753200,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgFuWxPd&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=AnifJw80qRdOrjutRTHj94X&oh=00_AYBPqJa1YE4uHhNfU9BEw9H82lzYiR7KKldQvh5ZZ_Hxlg&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgHZmo3i&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=AnifJw80qRdOrjutRTHj94X&oh=00_AYDGDPjcIxQxuiIS1GUtaSE-cEGO9NH5wwgP9-jP2_WoyQ&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1292954358564970",
+  "startDateFormatted": "2024-11-07T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1292954358564970",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": null,
+  "collationId": "850176510615512",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465737786_534033576007546_5795100463989652229_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=11LvU5Ol3qYQ7kNvgFYN8UI&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAUprZt4lWoc0h7JJgGc4xd8wLyMYcNrZChMjF7UdVwiA&oe=67401CCD",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465709715_8419222498132144_5852073796492878515_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=88Au7NQPzDEQ7kNvgEUV9QE&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCVqGGqwAit04o6kkcVJPfFP5lU8MKJvVD195IJXlYBEQ&oe=6740245C",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465732503_1139337597762246_8272287655379128143_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=heO6VXHL-DgQ7kNvgEnzT5D&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYB3V7yCZ0XscNUdDpC-ZfcQWBEW-oR9pnHxmxOwQSELKQ&oe=674025C1",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465675148_2267796520266611_3640099349897543280_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QEPOW2lWv_IQ7kNvgFYwz2v&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDJxclTYvdJm8fFatcG1bXmWqvV-c4iOsxMlW1KDNVU3g&oe=674016C4",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465709973_2787952278038676_8879401000110225446_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tsTqSmwK0HgQ7kNvgGpW9-h&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD_8DhXgMlTJW6Qj2sAkf8zlTsaDiLtAjFypQWKZ2RwAw&oe=674003CC",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465672977_1204746330596901_4954421555497522730_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C4Cw16n4MlgQ7kNvgG9X0AN&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBSJk1u24M_bVZpTTNgxsl9cuzj7DxNuimkCXloSSMG_Q&oe=674027E0",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465593877_887611476773116_3205389890719041300_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ovSYfrCsl1AQ7kNvgGtSXuY&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAYkGje2LxuGn7Gn1B2Rjsrk46kchgvFiEiyQekTDWRsA&oe=67401FFC",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465709715_9031467803550575_8005627530415480200_n.jpg?stp=dst-jpg_s600x600&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7_t5M613gJcQ7kNvgEJ6W_y&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAi5Kwjjiwzc-fZp0o3ocoyj_sdc737Mx5OoNsrzt6R0w&oe=673FFFD1",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465736173_470078742181230_6939258608145808462_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jfNbOtxYbAcQ7kNvgFB0L-J&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAQKoE2kCKYaAq3dd78S_bsnRWkoypY_vtq-SZVr9w99w&oe=673FFB68",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465656940_592070986507335_6145313761504139597_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ERv23m-SqjAQ7kNvgGf8A2I&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCudB1HyWiCLN_Ss7UTh2mTavpAdFdUmolyX6Y3BzbtaA&oe=674013ED",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465945927_570585098769191_3452517246392640351_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SLxeBFJfPoQQ7kNvgFCQB_C&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCy674asXvDjnp_HVDtUS2sgrg9c_6o9lCBZmAOOzw-eQ&oe=6740133A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465791501_922761892540142_7000508881350856249_n.jpg?stp=dst-jpg_s600x600&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5M2NDlU3kdIQ7kNvgH-aTab&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYB1YQTS8akkz3G7QrYDe1Op8dOIl95ARkNYaZf9nudkoA&oe=673FFC24",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465784818_847459594237601_2017527162382090560_n.jpg?stp=dst-jpg_s60x60&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4jvH0cNSXJgQ7kNvgHtXzTs&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAC9QX6DFXONtnVrdNcXuo28T7-awDjinek5KvIVC1gig&oe=67402721",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1730966400,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgGWDwFg&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=A0D9vF_dvkKBNjmLMP4R5Eg&oh=00_AYDaAO_rMVsEwJ0Z_BHLXaeBkR5zMNX0BMjnMk2cdctjgw&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgGhgNMf&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=A0D9vF_dvkKBNjmLMP4R5Eg&oh=00_AYC_pRufb6CGVy-Wry9uxYHufMDhwjDeOCtLPrhKnR5oug&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "487402017678612",
+  "startDateFormatted": "2024-11-10T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "487402017678612",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1086720822652578",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466466788_852913580382540_7389160350298586069_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7G4ypTnbLY0Q7kNvgFvDDoX&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAg8S8njlmTP9MmOg6FF2bBSJRE2VbX2Ua4svxxUTvdCA&oe=67401615",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466383781_1528059391180370_2871294805021161539_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DFAe4AWHA7cQ7kNvgFHI_cJ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDCijgtJRpc5c_HOYp_R__lPXjC8ICrg7l0wTQBwYxDJw&oe=674003E3",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466144493_1949366095529923_718700020776415192_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=LY23HhQFKg8Q7kNvgFJ-DUq&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCnha4Fu82lx0dc5UQRvVF3zvKmnat9PrS5so4_h-Y0Mw&oe=67400ED1",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466127336_1835939190568243_4696232174961314185_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=T7-1R3oBgVEQ7kNvgHb55I4&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBGtpLJqLbiuynxQrBcvXuHBVzXlD-mxBm49BsX0YCIsA&oe=6740226D",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466539885_1271654490954586_8120983780559506333_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cIK18FmWsTgQ7kNvgGp-ZG3&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC_ppVRMaPHf1CqAuCIZze5yq20RKMeu95jmm1ajAWPxw&oe=67401D97",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466115515_1674070506546620_5927697732695102403_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oKRLecWrETEQ7kNvgHIYawV&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBk9kmDoanhHtJ_6VpLbj82gru7RYh_uWdmJpcwdRDZZA&oe=67402432",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466130008_1125519415882996_3226435988752803724_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=U_du4g_c0ZsQ7kNvgF1NJz2&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDyCztt4vIF4tT9ww4u9arzZJJFpPY5qLFJd-qMr1RPFA&oe=67401FAB",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466559346_27587019144277429_2020447849985092133_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=r7yhyUKC9EoQ7kNvgGvkF3v&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCAS1jDYxxRn7rHaRXHGWWQVa95tqB9vyGE2sdAV8e4Hw&oe=67401150",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466780103_1986696141741510_2904066613243958960_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ikzUiiNIGv8Q7kNvgHbN4aM&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC1sUskXqps_uwn-VCuqPtnmUl1LLwrbd4dEXSpOhQv3g&oe=67402E97",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466097813_438885749316208_7120424639543814288_n.jpg?stp=dst-jpg_s600x600&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-zCXP6JAiEgQ7kNvgGF5ByE&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCT6Fvy12I5zvYB1GOBoxXIx1rzKL_9xdAydXemOnynSQ&oe=6740094D",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465706150_573812868448165_79926856543009144_n.jpg?stp=dst-jpg_s60x60&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PiXxgtLpbtEQ7kNvgH8CBzY&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBpEzw2EwtuFQepsegt1fOKiYb6TEBVLqCJ-FsVYNMgLg&oe=674002B4",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1731225600,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgFePhTx&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=AXmVc-sUUBKfeCz_ojuNBm0&oh=00_AYBQ0J9CXg73_KZfUNtjj9U_p0RhsY7IOOPezNPENLJMkQ&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgEwSh3J&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AXmVc-sUUBKfeCz_ojuNBm0&oh=00_AYD3_s_pgBabR-tbJ2J6C1ZZKyc2B1XaNNeoypHOXbfXMw&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1105159624601318",
+  "startDateFormatted": "2024-11-10T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1105159624601318",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "541410242044219",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": {
+      "text": "{{product.brand}}"
+    },
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": "",
+        "caption": "",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": null,
+        "linkUrl": "https://api.whatsapp.com/send",
+        "originalImageUrl": null,
+        "resizedImageUrl": null,
+        "watermarkedResizedImageUrl": null,
+        "title": "Chatea con nosotros",
+        "videoHdUrl": "https://video.fnic2-2.fna.fbcdn.net/v/t42.1790-2/465936326_1105159661267981_6171850782353508259_n.?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yVEyGkfq4gcQ7kNvgFNL02B&_nc_zt=28&_nc_ht=video.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAm4e-6dpJxmHMu_CkGBLpZDP4f60Z87ZrEUPcI130bhA&oe=6740011B",
+        "videoPreviewImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466377679_566552566027320_173679231357989951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PS8KWaVAmGsQ7kNvgGvpzMY&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCkcMoC4xNeVt2H91n1Qgy9OYgkopI5snnfIjYPZEFxNg&oe=67400715",
+        "videoSdUrl": "https://video.fnic2-2.fna.fbcdn.net/v/t42.1790-2/466224510_924955665750308_9040686452434612623_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yZOxi2FTFA0Q7kNvgGavaIN&_nc_zt=28&_nc_ht=video.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAlobPb1jJJZMDxcHA6bqfOWAowsoXxriRgAMiwmK4c_A&oe=67401B82",
+        "watermarkedVideoHdUrl": "",
+        "watermarkedVideoSdUrl": ""
+      },
+      {
+        "body": "",
+        "caption": "",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": null,
+        "linkUrl": "https://api.whatsapp.com/send",
+        "originalImageUrl": null,
+        "resizedImageUrl": null,
+        "watermarkedResizedImageUrl": null,
+        "title": "Chatea con nosotros",
+        "videoHdUrl": "https://video.fnic2-2.fna.fbcdn.net/v/t42.1790-2/466002226_1105159657934648_6390019404394254626_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XqxyvZ61v-wQ7kNvgF9dg8t&_nc_zt=28&_nc_ht=video.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYB_eVuNMndtzCn_SyX6KL1EcEQ_wCKjpaQV6wnMzXJ-dA&oe=67401049",
+        "videoPreviewImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466668519_878672137369482_8463538378451849235_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KqUcfEDRyoAQ7kNvgGdtEai&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAU3ZAY0ss-1__vgUiWZPIFwP423LvVLPo1v10SuXBHjw&oe=674002B1",
+        "videoSdUrl": "https://video.fnic2-2.fna.fbcdn.net/v/t42.1790-2/466617595_1064214485180301_341678285476710297_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6v1Zmxa-1lMQ7kNvgFSoPje&_nc_zt=28&_nc_ht=video.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAzlOBiwaIJvXhjYxONWJilBOgo-4h3vNEHzuI4B_47gg&oe=674011EB",
+        "watermarkedVideoHdUrl": "",
+        "watermarkedVideoSdUrl": ""
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "DCO",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": "{{product.description}}",
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466343016_526489523482120_1976595799406217256_n.jpg?stp=dst-jpg_s60x60&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vZu5DB-zKFcQ7kNvgGHUq8l&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYA_r6ue1fzgJLVVeDfF0eePODqBci3p8jHHSZKxt_e3ZQ&oe=673FFDCE",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "{{product.name}}",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1731225600,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent.ftpa1-1.fna.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgFLHx7z&_nc_zt=23&_nc_ht=scontent.ftpa1-1.fna&_nc_gid=A5VCCLwePyP5smnMgGpTRP3&oh=00_AYADMMaQ3iMLgdR3cMXK2rSIQgJE5JF-7E-hgA4YUaMiqw&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent.ftpa1-1.fna.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgH8e7Ae&_nc_zt=24&_nc_ht=scontent.ftpa1-1.fna&_nc_gid=A5VCCLwePyP5smnMgGpTRP3&oh=00_AYCfXUGjPGr4JH977DAKbTZknH3jdqA2LK9fCFpPE07IFA&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "2263185927381040",
+  "startDateFormatted": "2024-11-07T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "2263185927381040",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": null,
+  "collationId": "850176510615512",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466044281_525236907052945_2478956297654083866_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1mKK3HVBU_0Q7kNvgFV_9EO&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCFOT7cM8vQE1nEimHUkXNnxD3oi_4uOeAmutUex0coPA&oe=67401D14",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465794168_908412291225341_3034279213855788342_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=q7tR6eATfCcQ7kNvgH5hJUd&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAZ7dQf0HM-8CfIBAqv3uf9K0Si9T5X1uVG_liFTqDYLg&oe=67401CD7",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466015903_1656548868628267_2686575700110224265_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4SfSoSva9akQ7kNvgH882Wq&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBV0SissXsybSSnsiETHGdNFJ98MNiSVI8xlZV14629EQ&oe=67401F2F",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465799561_8194831163954021_8033974240686156056_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YFkSXPtOiwAQ7kNvgHmT_9T&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBJCCqyfp9bUox-w9EliszyGBJVvQex2qNgVMownEFJlw&oe=673FFFF5",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465934924_1595007857761182_3544134196967725928_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SFyA_GN8vocQ7kNvgEV1nnz&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAht7m-cLZf--wiX_HkfBUJ98ApL9xoMmfmSN-FjZCJ_A&oe=67401944",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465864211_906654761063134_4123702809704148878_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tQyNT88w5ZIQ7kNvgGKMphI&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCLxc6MLODKpD-Pudajn9i_IhsDtFyWZY4gJrjqyo9H-g&oe=67402CF7",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465913606_1214763816247802_634166722815269177_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eeri0ZPvhpgQ7kNvgEiee5s&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYA8VrmPX7zoBcJNYk49XRYQk1Y-_YiLNQr78vMZaXJTQA&oe=674021D8",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465855406_1060001629201215_4886749847577395033_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q3LSbas5iRwQ7kNvgGQj_DM&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD5bEUlj1ev-kIvRw1c6u3E4mXOZ_k684ZNowzrLYwk7Q&oe=674006AD",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466017149_2055737278258996_1497531958497506404_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=G8BtVGo1XWcQ7kNvgG2gm0g&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCOCTnT98KBWjEkEIXJRsNyvSecerAdsBnijkiAcUe6xw&oe=67400BD6",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465987623_3731936830379827_3946820368774677884_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kkOMx7N8d2EQ7kNvgF5G8EU&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAZEc5xmolwuR7eQJnGFVwcsUNVj33QdLLgjk8KRVpipw&oe=674012DB",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465777177_563868286278791_4336123705734906056_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NFy5g7idAg0Q7kNvgETyTw9&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC8cS2spxdr5WqRcK60chDhxqiqqZPeY6ehYvEP2ps-BA&oe=673FF9E8",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465988378_529744043279251_629820293596292409_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=N8RjkiH_kk4Q7kNvgFotJyd&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBwuqHJ41NG40uZKYC1MHCgkXK21KC5eV7gc7d15Q9bdw&oe=67402F8C",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/466044242_577262938034257_6700825508835065506_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ADbAMbsKDW8Q7kNvgGqH3Fh&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD0X0qO4E8GE-V5-_ukp5HBqR-9x_aTXQW2CSu6woELjA&oe=67400FAB",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1730966400,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent.fcxj1-1.fna.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgGA4Z2h&_nc_zt=23&_nc_ht=scontent.fcxj1-1.fna&_nc_gid=AyHJFRXSiw9HA6biBzpJx3B&oh=00_AYC4IlH2Nu8H_rygtpx5b2aZWcFF5cYpFUL4JCPYhJViPg&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent.fcxj1-1.fna.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgEas3km&_nc_zt=24&_nc_ht=scontent.fcxj1-1.fna&_nc_gid=AyHJFRXSiw9HA6biBzpJx3B&oh=00_AYD0Ln1o4ad1e8xaX_WUr5PLNPFxkTEGKu2s5BQXOGjfUA&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1258276421960498",
+  "startDateFormatted": "2024-11-07T08:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1258276421960498",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": null,
+  "collationId": "850176510615512",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465742756_1281180822757898_6973268544057634223_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SxPtwXRZfukQ7kNvgFg4Ezq&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC4mlmKNoSLJ-p4ZB2mFIexa2KxGI2RXsHHwo2ksk4baA&oe=674020B5",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465707373_868164702183161_7846670057399416730_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=69X5V2m50dAQ7kNvgFI9RoG&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDNtNJWlWykEMmD0oZoG0W3KzOU3g_r6FMB1JGXL4rwog&oe=674008C2",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465816206_1820088998734037_7416933943318707084_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZS-a5AqbKlkQ7kNvgGpOvEA&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCjCqFPGSec5gzLtdtSPz1B8v0O2lAv8UFq4A_1fL0YBQ&oe=6740025D",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465653680_3777947102520409_7161668858388603387_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4_QIi__alpUQ7kNvgFWqXcF&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBbt71EGH7MC_4HwfZwUCpL_6WzOjXaNBAUbD_GE9ZT_A&oe=67402477",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465600199_1275966836869051_3983917529728004293_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PKsDT0-IrTIQ7kNvgFRNisc&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBSB-aKaP0Nz6O46wmEaE1mH1NTxbvMlez7InoakwLJIA&oe=67400735",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465705913_502493319447583_9142533831222014220_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fdppHO_rDPUQ7kNvgEYXE-5&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBio068KqOs3pMRaNHzyXBEips_tGxoyhenqUGxjA9LlA&oe=6740195A",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465716454_2039062713191973_1472042971159415863_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SgHPNH6vRyoQ7kNvgEiAd2h&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBuzgrlXt7tRWqs511mt3KpbI4pQoUtaSqIVTYTGzB_-w&oe=67402BB8",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465735430_478725865191204_4012116897797936615_n.jpg?stp=dst-jpg_s600x600&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cCGFIkI41qoQ7kNvgENHygu&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCfKZhQpSjzJqgjko8UBx7BjIpYMGzU-FpewoTs2NE00Q&oe=6740097B",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465741551_866841288773298_8762351049885041231_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PugTnb07oWwQ7kNvgGDjQQF&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD_UDKKdrUnKySad42ItSKpHJmXQpp8d90L7qVgjkGWug&oe=67400E01",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465709114_1637526900182815_4361060441761533612_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=P3wqJlZyrPUQ7kNvgEsOhM6&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDATU8Fy3mqAYc-zrTu36cA8UEbTIQmAu9ibiU6s8eeIQ&oe=674007BB",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465709259_1650468482184041_5514969759805941687_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CmTFNNck-5cQ7kNvgG28r_1&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCgrKPiVgnCxNGyaUJSddHN41TCdcCXkeMct_3mlJykrg&oe=67402626",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465617393_897807352441776_5077921583705441005_n.jpg?stp=dst-jpg_s600x600&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=--kn5nTMlyUQ7kNvgG885Rr&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCkATxIDh1ztSGMeqdIwtrzm-oiMfHptO8wlLlF92R8rQ&oe=6740236C",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/465712701_1214479083147018_1636334081258151891_n.jpg?stp=dst-jpg_s60x60&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7anA_m877-kQ7kNvgEguH0d&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCz5ZI8U2D9BsL-tQRsKfhIYIaM8Yw0M8QkrVDcrKcY1w&oe=673FFCF9",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1730966400,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgFDRgjd&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AZ4-IBKpZC3Ne005cImaacg&oh=00_AYAnchKda3rZm5pj9wrtL_12Gp11YM1LOfKmW7SUn6Xxaw&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgFn12cx&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=AZ4-IBKpZC3Ne005cImaacg&oh=00_AYALn8zBLhbHlGc88YJ9bOShIVxBbQhRujOS-wRlna9AiA&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1963620790825470",
+  "startDateFormatted": "2024-10-23T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1963620790825470",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1062830222051870",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464277531_2886843914818029_2110353959541063643_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nMCepPHfrXIQ7kNvgHfrzrf&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDQ-y931ldH767eXbyHU8FtcgGJ0c4Oi_EtWrGxE3DQeQ&oe=6740270A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464190942_1189683755597190_5148502691235169750_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1a-2rTtU9ugQ7kNvgHNFXSg&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDxiT_jZR24Pxo4tmgJuXZFF0O43its6W4QRXAUxhyDhQ&oe=67402202",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464152074_954468106490424_7630283473794360045_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YnFgwrwywbkQ7kNvgFnt093&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBbWWpQ4tgtsOEJuS64g7U0mhPl2uAlB_dCMQipd1zugQ&oe=67401DF2",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464322004_1072512284064486_2256311168524361563_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YeybmicYcF4Q7kNvgEgwW9B&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCU_6YHKE8YPrM42wIhaN4kOSfC91loRHEicpUHgUIWIQ&oe=674026D4",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464316984_557105810202560_6223350243786857884_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3A2ks8i2F0AQ7kNvgHTQNcn&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBq5xKoVIfYGVM7yn4zXmBOjzD65KNcRqTZG1TvDM3LYg&oe=674018B6",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464247641_581388487893642_4636452878879015466_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sFu2l3GKrfEQ7kNvgGNMZKM&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDhhF_0I-4UyqsFayOR1Kqj9mxns2OSu9L4G0z-VZrpDw&oe=67400228",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464218905_522669937405691_7410441305416020598_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=p2sB7_91bLcQ7kNvgFSbrdi&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCIL6C_alDvW9-koIKtIUJWrriKF0NVziXmJJ-ZqnivIQ&oe=673FFE00",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464099047_560801029693477_3607548082118754127_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xUiqF593ZrgQ7kNvgFsKZRS&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYARYxTdqJuDuV_8VXZj_xDTFb-WTn4XhbLVMDvBH6WMFw&oe=67400ADA",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464152093_1312900373413419_8532735681729600426_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bGiZmBA_UO0Q7kNvgE0l8WS&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBmLqfLU7tcTmA71Go_QCF56Uo-oUY9nSI70kALUv65_Q&oe=67400CC3",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464241380_989126456304640_2568274569124947863_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pkQwnJlcIdoQ7kNvgFblxPA&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAi0Cgf6GydxgDFcQfoSldmacAFLU36YK6D--MFCXvr0A&oe=67402E2B",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464371594_1052692906393998_4694187011696936817_n.jpg?stp=dst-jpg_s60x60&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1YG0AZDzCn0Q7kNvgH4nfno&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCNKm2qvi_-pyjQZaq4gZ9zOy_-V-T5Ux79apBVvpd_9A&oe=674003BE",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729666800,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorbike dealership",
+          "page_cover_photo": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgE4NmJB&_nc_zt=23&_nc_ht=scontent-man2-1.xx&_nc_gid=AwiMBjlVKIv4WKu93texGLN&oh=00_AYAcLzrzNAOy8YK4MSwERWxfgNDFm6KxiUut0LeaNfe-Pg&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgHX066R&_nc_zt=24&_nc_ht=scontent-man2-1.xx&_nc_gid=AwiMBjlVKIv4WKu93texGLN&oh=00_AYBPuNywh0a2Z3DmaRf-55XXgQ43mouL37z7-h5FT3qOhA&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1260177175402258",
+  "startDateFormatted": "2024-10-20T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1260177175402258",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1215422716392323",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464150950_859001913081389_3902911610780203885_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bBf2e_6iiQoQ7kNvgEojHXE&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBo25rTIe-S4kQ3RaUib4EKQQhRurGtyfF0oULtVzW3tQ&oe=67402F64",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464061212_522623580556407_4329159598500798656_n.jpg?stp=dst-jpg_s600x600&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZPKNwOjKrmUQ7kNvgFHNZ3_&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAsGx5Ipylri4fa4xdV3LQNVMJdhaXer11IadE08P8_aw&oe=673FFA24",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464004443_1283052466476529_7510965095151977226_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kefQO8YWsVMQ7kNvgGytPwZ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCgQJ8iu_mHxDxJl569dx677guAaAwuSLF2GONRMTpsNQ&oe=674014C2",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464002693_1544243939569210_8399414963481119839_n.jpg?stp=dst-jpg_s600x600&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mgJ0I6q5hnUQ7kNvgFy9KQU&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDetNlRkjDW13_to-MEx9M-HV3apyY8VNmrBBamafGrZw&oe=674008BE",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464003375_424559693968382_5334909552773485347_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=34K3UkDWokcQ7kNvgFmSzF8&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBncfIe1I0JoOchLCw4Lra9P5daJwVHTJ9TJG3Nw48TGA&oe=67401273",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464269571_1634272170832796_1044511473560932856_n.jpg?stp=dst-jpg_s600x600&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zolX6FeGJ9oQ7kNvgGnhWzl&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYC-FVOWG3vlCphbGX05gBT1L4n5xKBq7LatRiRWBOQVEg&oe=6740246A",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464185803_1100609478296714_1484156137894014455_n.jpg?stp=dst-jpg_s60x60&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6allR2jKuhEQ7kNvgE84b0r&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYAGsg24XSxiQV_wYO9vi-KvoirHPzKcL_skYBISvVhHTg&oe=67402D6D",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729407600,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorbike dealership",
+          "page_cover_photo": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgEIYfEu&_nc_zt=23&_nc_ht=scontent-man2-1.xx&_nc_gid=Au9z6B68Ci_VAFLUGs2T6z-&oh=00_AYBAShEczwshWdLX7y0bh0PuGgiYRA3PIE_WrsobuTNFEw&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgGgiouE&_nc_zt=24&_nc_ht=scontent-man2-1.xx&_nc_gid=Au9z6B68Ci_VAFLUGs2T6z-&oh=00_AYDvzyQEdcQk3o5_8FwHVS-idsDyC7cL3yJ0nSfdS9B9sQ&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "530234353202358",
+  "startDateFormatted": "2024-10-20T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "530234353202358",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1977426372700409",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/463840520_352793211190882_8995161142913122765_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gDm4kTczx08Q7kNvgFbvDy1&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYB8j7ONnt90F2l6dsnUztAdSYWyVUWRK6P9wk8JRets-w&oe=674013A4",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464178192_1055884986185058_6150680178560322087_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WJoVkeufJw4Q7kNvgHE7EpC&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD0ahirwfBfalaQEwX8ecp6ucotbQHDTRAchbfrdlSoww&oe=67401570",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464014414_558423443327960_6991304145848624491_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iAuzsoBcNJ8Q7kNvgH-HnOi&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBm6j_A4ehV6xs8tYWho1kXNZAOnY0A3ewZ8ySyEq5NnA&oe=6740252A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464039432_1081309660240106_976903509515917037_n.jpg?stp=dst-jpg_s600x600&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=b7xhDwHQyHsQ7kNvgGws82y&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYD8jFR7oJl6ZQo_2od8-zFnoPK8wHG2GBwycPO6yk6BCQ&oe=6740194B",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464080688_3363589247281760_6136797469020374780_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-mjNzjihYTcQ7kNvgHl5tPQ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYATvuc_c9coihb6wtcAvrKAXgJQZNNL4JTJQe43XobOxw&oe=67401617",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/463927209_942339927717981_4619858105532816324_n.jpg?stp=dst-jpg_s600x600&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HS51kMx0txcQ7kNvgEOlK5W&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDBMgDn3cWklAiUOmACR-Kt423HlLzmDDX1c54iu3sT6g&oe=67402C1C",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464138151_573478928438033_3142351064341465993_n.jpg?stp=dst-jpg_s60x60&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IMPjYBPbcsYQ7kNvgFLXq5V&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDH4FZqe5ewLZ9WNLIafDajrHBiRPm2tD4o7MFOJddGNQ&oe=674008F4",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729407600,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorbike dealership",
+          "page_cover_photo": "https://scontent.fcwl1-1.fna.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgG4ZcdP&_nc_zt=23&_nc_ht=scontent.fcwl1-1.fna&_nc_gid=AsV2CnAUjMjAlmBBfG3EBG9&oh=00_AYAsRneOOula1qqT_YOypRUuweANLDUcQFK8qWcoAfsCXA&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent.fcwl1-1.fna.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgHD-z00&_nc_zt=24&_nc_ht=scontent.fcwl1-1.fna&_nc_gid=AsV2CnAUjMjAlmBBfG3EBG9&oh=00_AYBoSSaLFSmpi4YRywDgb06TjeDZOWjB7jaI7xiAAeMzHg&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "2124329017964201",
+  "startDateFormatted": "2024-10-21T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "2124329017964201",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "419531540950099",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": "api.whatsapp.com",
+    "cards": [
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464202507_1032760485196224_2497590107507143860_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WJsZ1FvYYmMQ7kNvgHAbYIe&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDfYQ18fvsh0ij15uj_XOLVYfb6v3q5UBKyAIPCh4_ktw&oe=67400214",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464148606_1191056558673673_8831348993759235746_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2xGX2gmmH8gQ7kNvgHDu6kZ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCx-OuMk0JvGJNpLBrb3mmwESwiBj6r6FK7gHM9Xv4xFg&oe=67401775",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464224437_434738386332006_325223665454774322_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=T2ygwMfJzgAQ7kNvgFBoptJ&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYA55JCQLU9vmwN7we-hl3-B4GcsJGHf-oMfS-BsWorwdw&oe=67402A0E",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464231259_540064675631659_7517393549774497709_n.jpg?stp=dst-jpg_s600x600&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iJ77i5aZfR8Q7kNvgGH2zyH&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBfKN92LQWl-mG_XOccH9q90Qq4bcD3Yz5ZMmJ9XuMMNw&oe=67401E1D",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464077085_567427032308673_3881728814347371123_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1Yr4t6_TXSsQ7kNvgGVoKi6&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDKlA6mqWYs0wS_PRXFNevYHhjk023ulG8f8lejI2TMFw&oe=674004B1",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464132051_1245675786764842_2648988402316553581_n.jpg?stp=dst-jpg_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gmu3LIlIAF4Q7kNvgHto2V0&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBfGuBzs3FCSBOdN8CHJE_asXS8YZzOncLiRJfJP8HvBg&oe=67400C5B",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      },
+      {
+        "body": " ",
+        "caption": "api.whatsapp.com",
+        "ctaText": "Send WhatsApp Message",
+        "ctaType": "WHATSAPP_MESSAGE",
+        "imageCrops": [],
+        "linkDescription": " ",
+        "linkUrl": "https://api.whatsapp.com/send?phone=5491152371354",
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464284557_2635560863498022_9150632499441654086_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-9qbDUkdVJ0Q7kNvgGjBYV0&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBFZX1Iz10LRPCZ5pOMXqpVYHqwQgWg2Kq0qZqUADetcA&oe=67401A16",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464272307_589782093606551_7578306904770368429_n.jpg?stp=dst-jpg_s600x600&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UdVGhkSnukwQ7kNvgHOAiH7&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYCRlORIzZ_hTWLYMmnpgH3RTAXmiCDPnTc6hs6yTlr2Rw&oe=67401B86",
+        "watermarkedResizedImageUrl": "",
+        "title": "Chatea con nosotros",
+        "videoHdUrl": null,
+        "videoPreviewImageUrl": null,
+        "videoSdUrl": null,
+        "watermarkedVideoHdUrl": null,
+        "watermarkedVideoSdUrl": null
+      }
+    ],
+    "ctaText": "Send WhatsApp message",
+    "ctaType": "WHATSAPP_MESSAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "CAROUSEL",
+    "event": null,
+    "images": [],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": "https://api.whatsapp.com/send",
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464145242_1561017184501853_2980799547452808462_n.jpg?stp=dst-jpg_s60x60&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xWrOK6TGyWQQ7kNvgHkxo6e&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBwjt4ByKhsuCet5MsbpUtOrIkqzfap47I-TBkqcDxXQA&oe=67401A4C",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "MegaMoto",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729494000,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgHZTGcX&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AIlPWMmt7G0TIalR43SHRQn&oh=00_AYBPFlZm5Tj4-l4abUc-CzEIQ6WskaBNUSRPzcW7GmFkoQ&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgEXIDtq&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AIlPWMmt7G0TIalR43SHRQn&oh=00_AYDNFRy-3zsxQs4IkhXqRazJntOPhxpwhj7d9q7HsekslQ&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+},
+{
+  "facebookUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=427801784046327",
+  "pageInfo": {
+    "adLibrarySystemStatus": {
+      "systemStatus": {
+        "status": "NO_KNOWN_ISSUES",
+        "activeIssues": []
+      }
+    },
+    "adLibraryPageInfo": {
+      "pageInfo": {
+        "pageIsDeleted": false,
+        "relatedPages": [],
+        "hasBlankAds": false,
+        "hiddenAds": 0,
+        "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+        "pageName": "MegaMoto",
+        "pageId": "427801784046327",
+        "pageVerification": "NOT_VERIFIED",
+        "entityType": "PERSON_PROFILE",
+        "pageAlias": "megamoto.merlo",
+        "likes": 33745,
+        "pageCategory": "Motorcycle Dealership",
+        "igVerification": false,
+        "igUsername": "megamotoarg",
+        "igFollowers": 5055
+      }
+    },
+    "page": {
+      "name": "MegaMoto",
+      "id": "427801784046327",
+      "about": {
+        "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+      },
+      "isDelegatePageWithLinkedPrimaryProfile": false,
+      "confirmedPageOwner": null,
+      "pagesTransparencyInfo": {
+        "historyItems": [
+          {
+            "eventTime": 1429972339,
+            "itemType": "CREATION"
+          }
+        ],
+        "stateMediaCountryLabel": null,
+        "id": "dHJhbnNwYXJlbmN5OjQyNzgwMTc4NDA0NjMyNw==",
+        "adminLocations": {
+          "adminCountryCounts": [
+            {
+              "count": 9,
+              "country": {
+                "isoName": "Argentina",
+                "id": "93790763357"
+              }
+            },
+            {
+              "count": 1,
+              "country": {
+                "isoName": "Mexico",
+                "id": "115224736100"
+              }
+            }
+          ]
+        }
+      },
+      "adLibraryPageTargetingInsight": {
+        "adLibraryPageHasSiepAds": false,
+        "adLibraryPageTargetingSummary": {
+          "detailedSpend": [],
+          "ds": "2024-11-12",
+          "mainCurrency": "",
+          "totalNumAds": 0,
+          "totalSpendFormatted": "0",
+          "is30DayAvailable": true,
+          "is90DayAvailable": true
+        },
+        "adLibraryPageTargetingGender": [],
+        "adLibraryPageTargetingLanguage": [],
+        "adLibraryPageTargetingLocation": [],
+        "adLibraryPageTargetingAge": [],
+        "adLibraryPageTargetingCustomAudience": [],
+        "adLibraryPageTargetingLookalikeAudience": [],
+        "adLibraryPageTargetingDetailed": []
+      }
+    },
+    "adLibraryUser": null,
+    "audiencePageInfo": {
+      "pageInfo": {
+        "pageHasAnySiepAds": false,
+        "pageName": "MegaMoto"
+      }
+    }
+  },
+  "totalCount": 14,
+  "pageID": "427801784046327",
+  "adArchiveID": "1254539125735151",
+  "startDateFormatted": "2024-10-21T07:00:00.000Z",
+  "endDateFormatted": "2024-11-17T08:00:00.000Z",
+  "adArchiveId": "1254539125735151",
+  "adId": null,
+  "archiveTypes": [],
+  "categories": [
+    "UNKNOWN"
+  ],
+  "collationCount": 1,
+  "collationId": "1254018415740297",
+  "containsDigitalCreatedMedia": false,
+  "containsSensitiveContent": false,
+  "currency": "",
+  "endDate": 1731830400,
+  "entityType": "person_profile",
+  "fevInfo": null,
+  "finservAdData": {
+    "isDeemedFinserv": false,
+    "isLimitedDelivery": false
+  },
+  "gatedType": "ELIGIBLE",
+  "hasUserReported": false,
+  "hiddenSafetyData": false,
+  "hideDataStatus": "NONE",
+  "impressionsWithIndex": {
+    "impressionsText": null,
+    "impressionsIndex": -1
+  },
+  "isAaaEligible": false,
+  "isActive": true,
+  "isProfilePage": false,
+  "menuItems": [],
+  "pageId": "427801784046327",
+  "pageIsDeleted": false,
+  "pageName": "MegaMoto",
+  "politicalCountries": [],
+  "publisherPlatform": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+  ],
+  "reachEstimate": null,
+  "reportCount": null,
+  "snapshot": {
+    "body": null,
+    "brandedContent": null,
+    "brazilTaxId": null,
+    "byline": null,
+    "caption": null,
+    "cards": [],
+    "ctaText": "Send message",
+    "ctaType": "MESSAGE_PAGE",
+    "countryIsoCode": null,
+    "currentPageName": "MegaMoto",
+    "disclaimerLabel": null,
+    "displayFormat": "IMAGE",
+    "event": null,
+    "images": [
+      {
+        "originalImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464210706_1446919406691661_69441601705630356_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RR8FiSuHFwgQ7kNvgGL23HX&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBvrd6k45Em_dcfweFobXIdHcA8-keLFW1RQ3S5BNxjuw&oe=673FF96A",
+        "resizedImageUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464218251_1222000212409144_5623540732115262982_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Bxd4SAUzh-8Q7kNvgFw4O6T&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYBHEhcvypTfiY3j21ba5-GDykWUx0DREB9NWdelG8ZcaQ&oe=674026ED",
+        "watermarkedResizedImageUrl": "",
+        "imageCrops": []
+      }
+    ],
+    "isReshared": false,
+    "linkDescription": null,
+    "linkUrl": null,
+    "pageCategories": [
+      "Auto Dealer"
+    ],
+    "pageEntityType": "PERSON_PROFILE",
+    "pageId": "427801784046327",
+    "pageIsDeleted": false,
+    "pageIsProfilePage": false,
+    "pageLikeCount": 33199,
+    "pageName": "MegaMoto",
+    "pageProfilePictureUrl": "https://scontent.fnic2-2.fna.fbcdn.net/v/t39.35426-6/464054059_1078844927090552_2043818121191789749_n.jpg?stp=dst-jpg_s60x60&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BjFwXJPfICIQ7kNvgFtgEVE&_nc_zt=14&_nc_ht=scontent.fnic2-2.fna&_nc_gid=A2zA_rb8F1Aaf6j4YRwpvH9&oh=00_AYDES5d7ns6lilvWnL-2zL61BrRldTZ56JI5KIywK6fVaA&oe=67400A9F",
+    "pageProfileUri": "https://www.facebook.com/megamoto.merlo/",
+    "rootResharedPost": null,
+    "title": "Chatea con nosotros",
+    "videos": [],
+    "additionalInfo": null,
+    "ecCertificates": [],
+    "extraImages": [],
+    "extraLinks": [],
+    "extraTexts": [],
+    "extraVideos": []
+  },
+  "spend": null,
+  "startDate": 1729494000,
+  "stateMediaRunLabel": null,
+  "totalActiveTime": null,
+  "ad_details": {
+    "advertiser": {
+      "page": {
+        "about": {
+          "text": "Motomel concept & Benelli Store\nEl concesionario con mejores calificaciones de zona Oeste y CABA"
+        },
+        "is_delegate_page_with_linked_primary_profile": false,
+        "id": "427801784046327"
+      },
+      "ad_library_page_info": {
+        "page_spend": {
+          "current_week": null,
+          "lifetime_by_disclaimer": [],
+          "weekly_by_disclaimer": [],
+          "is_political_page": false
+        },
+        "page_info": {
+          "entity_type": "PERSON_PROFILE",
+          "ig_followers": 5055,
+          "ig_username": "megamotoarg",
+          "ig_verification": false,
+          "likes": 33745,
+          "page_alias": "megamoto.merlo",
+          "page_category": "Motorcycle Dealership",
+          "page_cover_photo": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/231770084_1910179965808494_5412992751359394879_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=957871&_nc_ohc=OeSUz1E-XHYQ7kNvgFTN_sb&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AYPIbSLtg9BDsXimrP8Ci05&oh=00_AYBjnabrz4DDuabo1ghehfxoaFZDyMpUsuoBC2VAEWPtWg&oe=67400187",
+          "page_id": "427801784046327",
+          "page_is_deleted": false,
+          "page_is_restricted": false,
+          "page_name": "MegaMoto",
+          "page_profile_uri": "https://www.facebook.com/megamoto.merlo/",
+          "page_verification": "NOT_VERIFIED",
+          "profile_photo": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/257424535_1994334510726372_7221736954678224867_n.png?stp=dst-png_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=c9219a&_nc_ohc=bneR-48RnhoQ7kNvgG4NHaN&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AYPIbSLtg9BDsXimrP8Ci05&oh=00_AYDpNeWg_SxDRZu6JOh9cCqLwNTPPkh61x3RDyVd-KWKQQ&oe=67401EA4",
+          "is_profile_page": false
+        }
+      }
+    },
+    "violation_types": [],
+    "verified_voice_context": null
+  }
+}]
