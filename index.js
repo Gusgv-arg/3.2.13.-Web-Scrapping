@@ -18,7 +18,7 @@ app.get("/scrape/facebook", async (req, res) => {
   contador ++
   const allProducts = await apifyFacebookScraper();
   console.log("Allproducts:", allProducts)
-  res.status(200).send(allProducts)
+  res.status(200).send({allProducts})
 });
 
 app.get("/", (req, res) => {
