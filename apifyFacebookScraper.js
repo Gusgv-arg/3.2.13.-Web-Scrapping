@@ -33,7 +33,7 @@ export const apifyFacebookScraper = async () => {
 
 		items.forEach((item) => {
 			console.log("item:",item);
-			const name = item.pageInfo.page.name;
+			const name = item?.pageInfo?.page?.name ? item.pageInfo.page.name : `No encontró ${item.facebookUrl}` ;
 			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "";
 			const cards = item?.snapshot?.cards ?  item.snapshot.cards : [];
 			const images = item?.snapshot?.images ? item.snapshot.images : [];
