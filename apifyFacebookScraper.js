@@ -45,7 +45,7 @@ export const apifyFacebookScraper = async () => {
 			if (!results[name]) {
 				results[name] = []; 
 			}
-			results[name].push({ text, images: unifiedImages });
+			results.push({ name, text, images: unifiedImages });
 		});
 
 		console.log("results:", results);
