@@ -15,12 +15,15 @@ export const apifyFacebookScraper = async () => {
 	try {
 		const input = {
 			startUrls: [
-				{
+				/* {
 					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=173245975874895",
 				},
 				{
 					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=image_and_meme&search_type=page&view_all_page_id=289127913034",
-				},
+				}, */
+				{
+					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=video&search_type=page&view_all_page_id=289127913034"
+				}
 			],
 		};
 
@@ -32,22 +35,26 @@ export const apifyFacebookScraper = async () => {
 		//console.log("ITEMS:", items)
 
 		items.forEach((item) => {
-			console.log("item:",item);
+			//console.log("item:",item);
 			const name = item?.pageInfo?.page?.name 
 			? item.pageInfo.page.name 
 			: item.facebookUrl ? `Sin avisos id=${item.facebookUrl.split("id=").pop()}` : "Nombre no disponible"; // Modificación aquí
 			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "No hay avisos o no tienen texto.";
 			const cards = item?.snapshot?.cards ?  item.snapshot.cards : [];
 			const images = item?.snapshot?.images ? item.snapshot.images : [];
+			const videos = item?.snapshot?.videos ? item.snapshot.videos : []
+			const extraTexts = item?.snapshot?.extraTexts ? item.snapshot.extraTexts :""
+			console.log("Videos:", videos)
+			console.log("Extra Texts:", extraTexts)
 
 			// Unificar las constantes cards e images
-			const unifiedImages = [...images, ...cards];
+			const unifiedImages = [...images, ...cards, ...videos];
 
 			// Agrupar resultados por nombre
 			if (!results[name]) {
 				results[name] = []; 
 			}
-			results.push({ name, text, images: unifiedImages });
+			results.push({ name, text, images: unifiedImages, extraTexts });
 		});
 
 		console.log("results:", results);
