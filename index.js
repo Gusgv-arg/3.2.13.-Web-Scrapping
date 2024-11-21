@@ -18,6 +18,7 @@ app.get("/scrape/facebook", async (req, res) => {
   contador ++
   const allProducts = await apifyFacebookScraper();
   console.log("Allproducts:", allProducts)
+  res.setHeader('Content-Type', 'application/json');
   res.status(200).send(allProducts)
 });
 
