@@ -36,7 +36,7 @@ export const apifyFacebookScraper = async () => {
 			const name = item?.pageInfo?.page?.name 
 			? item.pageInfo.page.name 
 			: item.facebookUrl ? `Sin avisos id=${item.facebookUrl.split("id=").pop()}` : "Nombre no disponible"; // Modificación aquí
-			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "";
+			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "No hay avisos o no tienen texto.";
 			const cards = item?.snapshot?.cards ?  item.snapshot.cards : [];
 			const images = item?.snapshot?.images ? item.snapshot.images : [];
 
