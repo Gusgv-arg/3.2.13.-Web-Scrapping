@@ -1,8 +1,8 @@
 import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
-dotenv.config()
+dotenv.config();
 
 //const token = process.env.APIFY_TOKEN
 const client = new ApifyClient({
@@ -22,8 +22,9 @@ export const apifyFacebookScraper = async () => {
 					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=image_and_meme&search_type=page&view_all_page_id=289127913034",
 				}, */
 				{
-					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=video&search_type=page&view_all_page_id=289127913034"
-				}
+					name: "Ciudad Moto",
+					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=video&search_type=page&view_all_page_id=289127913034",
+				},
 			],
 		};
 
@@ -36,29 +37,37 @@ export const apifyFacebookScraper = async () => {
 
 		items.forEach((item) => {
 			//console.log("item:",item);
-			const name = item?.pageInfo?.page?.name 
-			? item.pageInfo.page.name 
-			: item.facebookUrl ? `Sin avisos id=${item.facebookUrl.split("id=").pop()}` : "Nombre no disponible"; // Modificación aquí
-			const text = item?.snapshot?.body?.text ? item.snapshot.body.text : "No hay avisos o no tienen texto.";
-			const cards = item?.snapshot?.cards ?  item.snapshot.cards : [];
+			const name = item?.name
+				? item.name
+				: item?.pageInfo?.page?.name
+				? item.pageInfo.page.name
+				: item.facebookUrl
+				? `Sin avisos id=${item.facebookUrl.split("id=").pop()}`
+				: "Nombre no disponible"; 
+			const text = item?.snapshot?.body?.text
+				? item.snapshot.body.text
+				: "No hay avisos o no tienen texto.";
+			const cards = item?.snapshot?.cards ? item.snapshot.cards : [];
 			const images = item?.snapshot?.images ? item.snapshot.images : [];
-			const videos = item?.snapshot?.videos ? item.snapshot.videos : []
-			const extraTexts = item?.snapshot?.extraTexts ? item.snapshot.extraTexts :""
-			console.log("Videos:", videos)
-			console.log("Extra Texts:", extraTexts)
+			const videos = item?.snapshot?.videos ? item.snapshot.videos : [];
+			const extraTexts = item?.snapshot?.extraTexts
+				? item.snapshot.extraTexts
+				: "";
+			console.log("Videos:", videos);
+			console.log("Extra Texts:", extraTexts);
 
 			// Unificar las constantes cards e images
 			const unifiedImages = [...images, ...cards, ...videos];
 
 			// Agrupar resultados por nombre
 			if (!results[name]) {
-				results[name] = []; 
+				results[name] = [];
 			}
 			results.push({ name, text, images: unifiedImages, extraTexts });
 		});
 
 		console.log("results:", results);
-		return results
+		return results;
 
 		/* // Crear un nuevo libro de Excel
 		const workbook = new ExcelJS.Workbook();
@@ -146,7 +155,7 @@ export const apifyFacebookScraper = async () => {
 		return facebookAds */
 	} catch (error) {
 		console.log("Error-->", error.message);
-		return error.message
+		return error.message;
 	}
 };
 //apifyFacebookScraper();
