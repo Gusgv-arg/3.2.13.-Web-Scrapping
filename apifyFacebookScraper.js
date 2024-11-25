@@ -1,6 +1,7 @@
 import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
 import dotenv from "dotenv";
+import urls from "./urls.js"
 
 dotenv.config();
 
@@ -12,24 +13,9 @@ const client = new ApifyClient({
 export const apifyFacebookScraper = async () => {
 	const results = [];
 
-	try {
-		const input = {
-			startUrls: [
-				/* {
-					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=173245975874895",
-				},
-				{
-					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=image_and_meme&search_type=page&view_all_page_id=289127913034",
-				}, */
-				{
-					name: "Ciudad Moto",
-					url: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AR&media_type=all&search_type=page&view_all_page_id=289127913034",
-				},
-			],
-		};
-
+	try {		
 		// Run the Actor
-		const run = await client.actor("JJghSZmShuco4j9gJ").call(input);
+		const run = await client.actor("JJghSZmShuco4j9gJ").call(urls);
 
 		// Fetch and print Actor results from the run's dataset (if any)
 		const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -43,7 +29,7 @@ export const apifyFacebookScraper = async () => {
 				? item.pageInfo.page.name
 				: item.facebookUrl
 				? `Sin avisos id=${item.facebookUrl.split("id=").pop()}`
-				: "Nombre no disponible"; 
+				: "Nombre no disponible";
 			const text = item?.snapshot?.body?.text
 				? item.snapshot.body.text
 				: "No hay avisos o no tienen texto.";
@@ -68,7 +54,6 @@ export const apifyFacebookScraper = async () => {
 
 		console.log("results:", results);
 		return results;
-		
 	} catch (error) {
 		console.log("Error-->", error.message);
 		return error.message;
