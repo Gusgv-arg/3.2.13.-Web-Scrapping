@@ -1,7 +1,7 @@
 import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
 import dotenv from "dotenv";
-import urls from "./urls.js"
+import urlsFacebook from "./urlsFacebook.js"
 
 dotenv.config();
 
@@ -15,7 +15,7 @@ export const apifyFacebookScraper = async () => {
 
 	try {		
 		// Run the Actor
-		const run = await client.actor("JJghSZmShuco4j9gJ").call(urls);
+		const run = await client.actor("JJghSZmShuco4j9gJ").call(urlsFacebook);
 
 		// Fetch and print Actor results from the run's dataset (if any)
 		const { items } = await client.dataset(run.defaultDatasetId).listItems();

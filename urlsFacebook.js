@@ -1,4 +1,4 @@
-export const urls = {
+export const urlsFacebook = {
     startUrls: [
         {
             name: "Agrobikes",
