@@ -1,7 +1,7 @@
 import { ApifyClient } from "apify-client";
 import ExcelJS from "exceljs";
 import dotenv from "dotenv";
-import urlsFacebook from "./urlsFacebook.js"
+import {urlsFacebook} from "./urlsFacebook.js"
 
 dotenv.config();
 
