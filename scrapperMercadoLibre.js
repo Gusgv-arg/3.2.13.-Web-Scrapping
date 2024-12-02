@@ -7,13 +7,15 @@ dotenv.config();
 let isScraping = false; // Variable de bloqueo
 
 export const scrapperMercadoLibre = async () => {
-	console.log("isScraping:", isScraping)
+	console.log("isScraping:", isScraping);
 	if (isScraping === true) {
-		console.log("El scraping ya está en ejecución. Ignorando la nueva solicitud.");
-		return; 
+		console.log(
+			"El scraping ya está en ejecución. Ignorando la nueva solicitud."
+		);
+		return;
 	}
 	isScraping = true; // Establecer el bloqueo
-		
+
 	// Inicializa el navegador
 	//const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
 	const browser = await puppeteer.launch({
@@ -117,46 +119,74 @@ export const scrapperMercadoLibre = async () => {
 				allProducts = allProducts.concat(products); // Acumula los resultados
 
 				// Verifica si hay un botón de "Siguiente" y haz clic en él
-				const siguienteBoton = await page.$('a[title="Siguiente"]'); // Selector del botón "Siguiente"
+				//const siguienteBoton = await page.$('a[title="Siguiente"]'); // Selector del botón "Siguiente"
+				//console.log("Siguiente boton encontrado", siguienteBoton);
+				// ... existing code ...
+				// ... existing code ...
+
+				// Verifica si hay un botón de "Siguiente"
+				const siguienteBoton = await page.$('a[title="Siguiente"]');
+				console.log("Siguiente boton encontrado:", !!siguienteBoton);
+
+				// ... existing code ...
 
 				if (siguienteBoton) {
-					// Verifica si el botón está habilitado
-					const isDisabled = await page.evaluate((element) => {
-						return element
-							.closest("li")
-							.classList.contains("andes-pagination__button--disabled");
-					}, siguienteBoton);
-
-					if (!isDisabled) {
-						try {
-							// Desplazarse a la vista del botón
-							await page.evaluate((element) => {
-								element.scrollIntoView();
-							}, siguienteBoton);
-
-							// Hacer clic en el botón "Siguiente" y esperar a que la navegación se complete
-							await Promise.all([
-								siguienteBoton.click(), // Haz clic en el botón "Siguiente"
-								page.waitForNavigation({ waitUntil: "networkidle2" }), // Espera a que la navegación se complete
-							]);
-
-							await page.waitForTimeout(2000); // Espera un momento para que la nueva página cargue
-						} catch (error) {
-							console.error(
-								"Error al hacer clic en el botón 'Siguiente':",
-								error
+					try {
+						// Obtener información de la página actual
+						const pageInfo = await page.evaluate(() => {
+							const currentPage = parseInt(
+								document
+									.querySelector(".andes-pagination__button--current")
+									?.textContent?.trim() || "1"
 							);
-							break; // Sal del bucle si hay un error
+							const currentUrl = window.location.href;
+							return { currentPage, currentUrl };
+						});
+
+						console.log("Información de página actual:", pageInfo);
+
+						// Construir la URL de la siguiente página basada en el patrón exacto
+						let nextPageUrl;
+						if (pageInfo.currentPage === 1) {
+							// Si estamos en la primera página, la siguiente será con _Desde_49
+							const baseUrl = pageInfo.currentUrl.replace("_NoIndex_True", "");
+							nextPageUrl = `${baseUrl}_Desde_49_NoIndex_True`;
+						} else {
+							// Si ya pasamos la segunda página, no continuamos
+							console.log("Llegamos al final de las páginas disponibles");
+							break;
 						}
-					} else {
-						console.log(
-							"El botón 'Siguiente' está deshabilitado. No se puede hacer clic."
-						);
-						break; // Sal del bucle si el botón está deshabilitado
+
+						console.log("Intentando navegar a:", nextPageUrl);
+
+						// Navegar a la siguiente página
+						const response = await page.goto(nextPageUrl, {
+							waitUntil: "networkidle2",
+							timeout: 30000,
+						});
+
+						// Verificar si la navegación fue exitosa
+						if (response.status() !== 200) {
+							console.log(
+								`Error en la navegación: Status ${response.status()}`
+							);
+							break;
+						}
+
+						// Esperar a que los resultados se carguen
+						await page.waitForSelector("ol.ui-search-layout", {
+							timeout: 15000,
+						});
+
+						console.log("Navegación exitosa a la siguiente página");
+						await page.waitForTimeout(3000);
+					} catch (error) {
+						console.error("Error durante la navegación:", error);
+						break;
 					}
 				} else {
-					console.log("No se encontró el botón 'Siguiente'.");
-					break; // Si no hay botón "Siguiente", sal del bucle
+					console.log("No se encontró el botón 'Siguiente'. Fin del scraping.");
+					break;
 				}
 			} while (true);
 		}
@@ -164,13 +194,13 @@ export const scrapperMercadoLibre = async () => {
 		// Muestra los datos extraídos en la consola
 		if (allProducts.length > 0) {
 			console.log("Datos extraídos:", allProducts);
-			console.log("Cantidad:", allProducts.length);			
+			console.log("Cantidad:", allProducts.length);
 			return allProducts;
 		} else {
 			console.warn(
 				"No se encontraron datos para extraer. Verifique los selectores o los resultados de la búsqueda."
 			);
-			return allProducts;			
+			return allProducts;
 		}
 	} catch (error) {
 		console.log("Error corriendo Puppeteer:", error);
@@ -181,3 +211,4 @@ export const scrapperMercadoLibre = async () => {
 		await browser.close();
 	}
 };
+scrapperMercadoLibre();

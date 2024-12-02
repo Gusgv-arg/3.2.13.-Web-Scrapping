@@ -1,5 +1,5 @@
 export const urlsMercadoLibre = [
-	"https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-180-s_Desde_49_NoIndex_True",
+	    "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-180-s_NoIndex_True"
 ];
 
 const urlChequeadas = [
