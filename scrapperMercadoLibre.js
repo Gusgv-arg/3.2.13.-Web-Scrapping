@@ -12,13 +12,17 @@ export const scrapperMercadoLibre = async () => {
 		console.log(
 			"El scraping ya está en ejecución. Ignorando la nueva solicitud."
 		);
-		return;
+		return { error: "Scaping en progreso", data: null };
 	}
+
 	isScraping = true; // Establecer el bloqueo
+	let browser = null;
+	let allProducts = [];
+	let error = null;
 
 	// Inicializa el navegador
 	//const browser = await puppeteer.launch({ headless: false }); // Cambié headless a false para depurar visualmente
-	const browser = await puppeteer.launch({
+	browser = await puppeteer.launch({
 		args: [
 			"--disable-setuid-sandbox",
 			"--no-sandbox",
@@ -30,14 +34,16 @@ export const scrapperMercadoLibre = async () => {
 				? process.env.PUPPETEER_EXECUTABLE_PATH
 				: puppeteer.executablePath(),
 	});
+
 	const page = await browser.newPage();
 
-	let allProducts = [];
-
 	try {
-		for (const url of urlsMercadoLibre) {
-			console.log(`Navegando a la URL: ${url}`);
-			await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+		for (const urlData of urlsMercadoLibre) {
+			console.log(`Navegando a la URL: ${urlData.url}`);
+			await page.goto(urlData.url, {
+				waitUntil: "networkidle2",
+				timeout: 60000,
+			});
 
 			// Ingresa en la barra de búsqueda
 			/* console.log("Ingresando la búsqueda");
@@ -48,7 +54,7 @@ export const scrapperMercadoLibre = async () => {
 			console.log(
 				"Esperando a que los resultados de la búsqueda se carguen..."
 			);
-			await page.waitForSelector("ol.ui-search-layout", { timeout: 15000 });
+			await page.waitForSelector("ol.ui-search-layout", { timeout: 25000 });
 
 			// Verifica si los resultados están presentes
 			const resultadosDisponibles = await page.$("ol.ui-search-layout");
@@ -65,64 +71,67 @@ export const scrapperMercadoLibre = async () => {
 
 			do {
 				// Realiza el scraping de cada aviso
-				const products = await page.evaluate(() => {
+				const products = await page.evaluate((palabraClave) => {
 					// Selecciona todos los contenedores de resultados dentro del elemento <ol>
 					const resultados = document.querySelectorAll(
 						"ol.ui-search-layout.ui-search-layout--grid > li.ui-search-layout__item"
 					);
 					let data = [];
 
-					// Itera sobre los resultados para extraer la información relevante
 					resultados.forEach((resultado) => {
 						const titulo =
 							resultado.querySelector("h2.poly-component__title > a")
 								?.innerText || "Título no disponible";
-						const precio =
-							resultado.querySelector(
-								".poly-component__price .andes-money-amount__fraction"
-							)?.innerText || "Precio no disponible";
-						const link =
-							resultado.querySelector("h2.poly-component__title > a")?.href ||
-							"Link no disponible";
-						const ubicacion =
-							resultado.querySelector(".poly-component__location")?.innerText ||
-							"Ubicación no disponible";
-						const vendedor =
-							resultado.querySelector(".poly-component__seller")?.innerText ||
-							"Vendedor no disponible";
-						const atributos =
-							Array.from(
-								resultado.querySelectorAll(
-									".poly-component__attributes-list .poly-attributes-list__item"
-								)
-							).map((attr) => attr.innerText) || [];
 
-						// Filtra solo los resultados que contengan "0 Km" en sus atributos
-						const esNuevo = atributos.filter(
-							(attr) => attr.trim() === "2024, 0 Km"
-						);
+						// Solo procesar si el título contiene la palabra clave (ignorando mayúsculas/minúsculas)
+						if (titulo.toLowerCase().includes(palabraClave.toLowerCase())) {
+							const precio =
+								resultado.querySelector(
+									".poly-component__price .andes-money-amount__fraction"
+								)?.innerText || "Precio no disponible";
+							const link =
+								resultado.querySelector("h2.poly-component__title > a")?.href ||
+								"Link no disponible";
+							const ubicacion =
+								resultado.querySelector(".poly-component__location")
+									?.innerText || "Ubicación no disponible";
+							const vendedor =
+								resultado.querySelector(".poly-component__seller")?.innerText ||
+								"Vendedor no disponible";
+							const atributos =
+								Array.from(
+									resultado.querySelectorAll(
+										".poly-component__attributes-list .poly-attributes-list__item"
+									)
+								).map((attr) => attr.innerText) || [];
 
-						if (titulo && precio && link && esNuevo) {
-							data.push({
-								titulo,
-								precio,
-								link,
-								ubicacion,
-								vendedor,
-								atributos: atributos.join(", "),
-							});
+							const esNuevo = atributos.filter(
+								(attr) => attr.trim() === "2024, 0 Km"
+							);
+
+							if (titulo && precio && link && esNuevo) {
+								data.push({
+									titulo,
+									precio,
+									link,
+									ubicacion,
+									vendedor,
+									atributos: atributos.join(", "),
+								});
+							}
 						}
 					});
 					return data;
-				});
+				}, urlData.palabraClave);
 
 				allProducts = allProducts.concat(products); // Acumula los resultados
+				console.log(
+					`Productos encontrados para ${urlData.palabraClave} en esta página: ${products.length}`
+				);
 
 				// Verifica si hay un botón de "Siguiente" y haz clic en él
 				//const siguienteBoton = await page.$('a[title="Siguiente"]'); // Selector del botón "Siguiente"
 				//console.log("Siguiente boton encontrado", siguienteBoton);
-				// ... existing code ...
-				// ... existing code ...
 
 				// Verifica si hay un botón de "Siguiente"
 				const siguienteBoton = await page.$('a[title="Siguiente"]');
@@ -132,35 +141,61 @@ export const scrapperMercadoLibre = async () => {
 
 				if (siguienteBoton) {
 					try {
-						// Obtener información de la página actual
+						// Obtener información de la página actual y la siguiente URL directamente del botón
 						const pageInfo = await page.evaluate(() => {
 							const currentPage = parseInt(
 								document
 									.querySelector(".andes-pagination__button--current")
 									?.textContent?.trim() || "1"
 							);
-							const currentUrl = window.location.href;
-							return { currentPage, currentUrl };
+							const totalResultsText =
+								document.querySelector(
+									".ui-search-search-result__quantity-results"
+								)?.textContent || "0";
+							const totalResults = parseInt(totalResultsText.match(/\d+/)[0]);
+
+							// Obtener el total de páginas desde la paginación
+							const paginationButtons = document.querySelectorAll(
+								".andes-pagination__button"
+							);
+							const lastPageButton = Array.from(paginationButtons)
+								.filter(
+									(button) =>
+										!button.classList.contains("andes-pagination__button--next")
+								)
+								.pop();
+							const totalPages = lastPageButton
+								? parseInt(lastPageButton.textContent.trim())
+								: Math.ceil(totalResults / 48);
+
+							// Obtener la URL de la siguiente página directamente del botón siguiente
+							const nextButton = document.querySelector(
+								".andes-pagination__button--next a"
+							);
+							const nextUrl = nextButton ? nextButton.href : null;
+
+							return {
+								currentPage,
+								totalPages,
+								totalResults,
+								nextUrl,
+								hasMorePages: currentPage < totalPages,
+							};
 						});
 
-						console.log("Información de página actual:", pageInfo);
+						console.log(
+							`Página ${pageInfo.currentPage} de ${pageInfo.totalPages} (${pageInfo.totalResults} resultados totales)`
+						);
 
-						// Construir la URL de la siguiente página basada en el patrón exacto
-						let nextPageUrl;
-						if (pageInfo.currentPage === 1) {
-							// Si estamos en la primera página, la siguiente será con _Desde_49
-							const baseUrl = pageInfo.currentUrl.replace("_NoIndex_True", "");
-							nextPageUrl = `${baseUrl}_Desde_49_NoIndex_True`;
-						} else {
-							// Si ya pasamos la segunda página, no continuamos
-							console.log("Llegamos al final de las páginas disponibles");
+						if (!pageInfo.hasMorePages || !pageInfo.nextUrl) {
+							console.log("Llegamos a la última página disponible");
 							break;
 						}
 
-						console.log("Intentando navegar a:", nextPageUrl);
+						console.log("Intentando navegar a:", pageInfo.nextUrl);
 
 						// Navegar a la siguiente página
-						const response = await page.goto(nextPageUrl, {
+						const response = await page.goto(pageInfo.nextUrl, {
 							waitUntil: "networkidle2",
 							timeout: 30000,
 						});
@@ -178,10 +213,24 @@ export const scrapperMercadoLibre = async () => {
 							timeout: 15000,
 						});
 
+						// Verificar si hay resultados en la nueva página
+						const hasResults = await page.evaluate(() => {
+							const results = document.querySelector("ol.ui-search-layout");
+							return results && results.children.length > 0;
+						});
+
+						if (!hasResults) {
+							console.log(
+								"No se encontraron resultados en la siguiente página"
+							);
+							break;
+						}
+
 						console.log("Navegación exitosa a la siguiente página");
 						await page.waitForTimeout(3000);
 					} catch (error) {
 						console.error("Error durante la navegación:", error);
+						console.error("Error detallado:", error.message);
 						break;
 					}
 				} else {
@@ -203,7 +252,10 @@ export const scrapperMercadoLibre = async () => {
 			return allProducts;
 		}
 	} catch (error) {
-		console.log("Error corriendo Puppeteer:", error);
+		console.log("Error corriendo Puppeteer:", error.response ? error.response.data : error.message);
+		return {
+			data: error.response ? error.response.data : error.message,
+		};
 	} finally {
 		// Cierra el navegador
 		console.log("Cerrando el navegador...");
