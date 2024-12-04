@@ -84,7 +84,15 @@ export const scrapperMercadoLibre = async () => {
 								?.innerText || "Título no disponible";
 
 						// Solo procesar si el título contiene la palabra clave (ignorando mayúsculas/minúsculas)
-						if (titulo.toLowerCase().includes(palabraClave.toLowerCase())) {
+						if (
+							titulo.toLowerCase().includes(palabraClave.toLowerCase()) &&
+							!titulo.toLowerCase().includes("no leoncino") &&
+							!titulo.toLowerCase().includes("no 300") &&
+							!titulo.toLowerCase().includes("no trk") &&
+							!titulo.toLowerCase().includes("no benelli") &&
+							!titulo.toLowerCase().includes("no beneli") &&
+							!titulo.toLowerCase().includes("no es benelli")
+						) {
 							const precio =
 								resultado.querySelector(
 									".poly-component__price .andes-money-amount__fraction"
@@ -252,7 +260,10 @@ export const scrapperMercadoLibre = async () => {
 			return allProducts;
 		}
 	} catch (error) {
-		console.log("Error corriendo Puppeteer:", error.response ? error.response.data : error.message);
+		console.log(
+			"Error corriendo Puppeteer:",
+			error.response ? error.response.data : error.message
+		);
 		return {
 			data: error.response ? error.response.data : error.message,
 		};
