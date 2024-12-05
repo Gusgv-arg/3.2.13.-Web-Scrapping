@@ -286,4 +286,4 @@ export const scrapperMercadoLibre = async () => {
 		await browser.close();
 	}
 };
-scrapperMercadoLibre();
+//scrapperMercadoLibre();
