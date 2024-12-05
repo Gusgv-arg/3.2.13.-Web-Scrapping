@@ -95,7 +95,7 @@ export const scrapperMercadoLibre = async () => {
 
 						// Solo procesar si el título contiene la palabra clave (ignorando mayúsculas/minúsculas)
 						if (
-							titulo.toLowerCase().includes(palabraClave.toLowerCase()) &&
+							titulo.toLowerCase().startsWith(palabraClave.toLowerCase()) &&
 							!titulo.toLowerCase().includes("no leoncino") &&
 							!titulo.toLowerCase().includes("no 300") &&
 							!titulo.toLowerCase().includes("no trk") &&
