@@ -277,7 +277,7 @@ export const scrapperMercadoLibre = async () => {
 			error.response ? error.response.data : error.message
 		);
 		return {
-			data: error.response ? error.response.data : error.message,
+			error: error.response ? error.response.data : error.message,
 		};
 	} finally {
 		// Cierra el navegador
