@@ -1,9 +1,9 @@
 /* export const urlsMercadoLibre =[
 	{
-		url: "https://motos.mercadolibre.com.ar/touring/benelli/concesionaria/benelli-trk-502_ITEM*CONDITION_2230284_NoIndex_True",
-		palabraClave: "Trk 502",
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-502_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "502",
 	}
-] */
+]  */
 
 export const urlsMercadoLibre = [
 	{

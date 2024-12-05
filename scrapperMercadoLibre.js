@@ -82,6 +82,16 @@ export const scrapperMercadoLibre = async () => {
 						const titulo =
 							resultado.querySelector("h2.poly-component__title > a")
 								?.innerText || "Título no disponible";
+						
+						// Verificar la moneda antes de procesar
+						const currencySymbol = resultado.querySelector(
+							".poly-component__price .andes-money-amount__currency-symbol"
+						)?.innerText.toLowerCase() || "";
+				
+						// Ignorar si es dólar (u$, us, us$)
+						const isDollar = currencySymbol.startsWith('u$') || 
+										currencySymbol.startsWith('us') || 
+										currencySymbol.startsWith('us$');
 
 						// Solo procesar si el título contiene la palabra clave (ignorando mayúsculas/minúsculas)
 						if (
@@ -89,9 +99,11 @@ export const scrapperMercadoLibre = async () => {
 							!titulo.toLowerCase().includes("no leoncino") &&
 							!titulo.toLowerCase().includes("no 300") &&
 							!titulo.toLowerCase().includes("no trk") &&
+							!titulo.toLowerCase().includes("no tnt 15") &&
 							!titulo.toLowerCase().includes("no benelli") &&
 							!titulo.toLowerCase().includes("no beneli") &&
-							!titulo.toLowerCase().includes("no es benelli")
+							!titulo.toLowerCase().includes("no es benelli") &&
+							!isDollar
 						) {
 							const precio =
 								resultado.querySelector(
