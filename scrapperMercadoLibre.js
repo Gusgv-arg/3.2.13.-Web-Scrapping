@@ -54,7 +54,7 @@ export const scrapperMercadoLibre = async () => {
 			console.log(
 				"Esperando a que los resultados de la búsqueda se carguen..."
 			);
-			await page.waitForSelector("ol.ui-search-layout", { timeout: 25000 });
+			await page.waitForSelector("ol.ui-search-layout", { timeout: 35000 });
 
 			// Verifica si los resultados están presentes
 			const resultadosDisponibles = await page.$("ol.ui-search-layout");
@@ -217,7 +217,7 @@ export const scrapperMercadoLibre = async () => {
 						// Navegar a la siguiente página
 						const response = await page.goto(pageInfo.nextUrl, {
 							waitUntil: "networkidle2",
-							timeout: 30000,
+							timeout: 35000,
 						});
 
 						// Verificar si la navegación fue exitosa
@@ -230,7 +230,7 @@ export const scrapperMercadoLibre = async () => {
 
 						// Esperar a que los resultados se carguen
 						await page.waitForSelector("ol.ui-search-layout", {
-							timeout: 15000,
+							timeout: 20000,
 						});
 
 						// Verificar si hay resultados en la nueva página
