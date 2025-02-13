@@ -1,11 +1,11 @@
-/* export const urlsMercadoLibre =[
+export const urlsMercadoLibre =[
 	{
 		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-502_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: "502",
 	}
-]  */
+]
 
-export const urlsMercadoLibre = [
+/* export const urlsMercadoLibre = [
 	{
 		url: "https://motos.mercadolibre.com.ar/scooters/motomel/blitz-110/concesionaria/motomel-blitz-110_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: "Blitz",
@@ -178,7 +178,7 @@ export const urlsMercadoLibre = [
 		url: "https://motos.mercadolibre.com.ar/concesionaria/rerace-teknial_BRAND_5411085_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: "Rerace",
 	}
-];
+]; */
 /* const urls = ()=>{
 	console.log(urlsMercadoLibre.length)
 
