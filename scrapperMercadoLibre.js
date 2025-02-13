@@ -157,8 +157,6 @@ export const scrapperMercadoLibre = async () => {
 				const siguienteBoton = await page.$('a[title="Siguiente"]');
 				console.log("Siguiente boton encontrado:", !!siguienteBoton);
 
-				// ... existing code ...
-
 				if (siguienteBoton) {
 					try {
 						// Obtener información de la página actual y la siguiente URL directamente del botón

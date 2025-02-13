@@ -15,7 +15,7 @@ export const urlsMercadoLibre = [
 		palabraClave: "180",
 	},
 	{
-		url: "https://motos.mercadolibre.com.ar/touring/benelli/concesionaria/benelli-251_ITEM*CONDITION_2230284_NoIndex_True",
+		url: "https://motos.mercadolibre.com.ar/touring/benelli/concesionaria/benelli-251s_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: "251",
 	},
 	{
@@ -122,4 +122,65 @@ export const urlsMercadoLibre = [
 		url: "https://motos.mercadolibre.com.ar/motomel/concesionaria/motomel-victory-150_ENGINE*DISPLACEMENT_150cc-150cc_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: "Victory",
 	},
+	{
+		url: "https://motos.mercadolibre.com.ar/sym/concesionaria/orbit-ii-125_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Orbit II",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/keeway/concesionaria/keeway-v302c_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "V302C",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/TRK-702_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Trk 702",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/TRK-702X_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Trk 702X",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/Leoncino-800-Trail_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Leoncino 800",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/naked/suzuki/concesionaria/Gixxer_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Gixxer",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Neo_Xr_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Neo Xr",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Ntorq_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Ntorq",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Raider_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Raider",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Rtr160_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Rtr 160",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Rtr200_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Rtr 200",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/tvs/concesionaria/Rtr200efi_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Rtr 200 Efi",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/teknial/concesionaria/Revolt_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Revolt",
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/concesionaria/rerace-teknial_BRAND_5411085_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: "Rerace",
+	}
 ];
+/* const urls = ()=>{
+	console.log(urlsMercadoLibre.length)
+
+}
+urls() */
