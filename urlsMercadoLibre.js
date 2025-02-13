@@ -43,7 +43,7 @@ export const urlsMercadoLibre = [
 		palabraClave: ["Leoncino 500"],
 	},
 	{
-		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-leoncino-500-trail_ENGINE*DISPLACEMENT_500cc-500cc_ITEM*CONDITION_2230284_NoIndex_True",
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/leoncino-500-trail_ENGINE*DISPLACEMENT_500cc-500cc_NoIndex_True#applied_filter_id%3Dseller_type%26applied_filter_name%3DPublica%26applied_filter_order%3D8%26applied_value_id%3Dcar_dealer%26applied_value_name%3DConcesionaria%26applied_value_order%3D1%26applied_value_results%3D73%26is_custom%3Dfalse",
 		palabraClave: ["500 Trail"],
 	},
 	{
