@@ -23,7 +23,7 @@ app.get("/scrape/facebook", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Render Puppeteer server is up and running!");
+  res.send("Servidor de Scrapin en Render prendido!");
 });
 
 app.listen(PORT, () => {
