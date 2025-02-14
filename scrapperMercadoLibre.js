@@ -286,8 +286,8 @@ export const scrapperMercadoLibre = async () => {
 		}
 		// Muestra los datos extraídos en la consola
 		if (allProducts.length > 0) {
-			console.log("Datos extraídos:", allProducts);
-			console.log("Cantidad:", allProducts.length);
+			//console.log("Datos extraídos:", allProducts);
+			console.log("Cantidad de datos:", allProducts.length);
 			return allProducts;
 		} else {
 			console.warn(
