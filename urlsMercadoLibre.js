@@ -5,7 +5,7 @@
 	}
 ] */  
 
-export const urlsMercadoLibre = [
+export const urlsMercadoLibre1 = [
 	{
 		url: "https://motos.mercadolibre.com.ar/scooters/motomel/blitz-110/concesionaria/motomel-blitz-110_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Blitz"],
@@ -100,7 +100,7 @@ export const urlsMercadoLibre = [
 	},
 ]
 
-export const urlsMercadoLibre2 = [
+export const urlsMercadoLibre = [
 	{
 		url: "https://motos.mercadolibre.com.ar/motomel/concesionaria/motomel-xmm_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Xmm"],
