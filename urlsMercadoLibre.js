@@ -181,7 +181,8 @@ export const urlsMercadoLibre = [
 		url: "https://motos.mercadolibre.com.ar/concesionaria/rerace-teknial_BRAND_5411085_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Rerace", "Re race"],
 	}
-];   
+];  
+ 
 /* const urls = ()=>{
 	console.log(urlsMercadoLibre.length)
 
