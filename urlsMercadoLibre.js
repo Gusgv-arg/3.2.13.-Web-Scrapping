@@ -98,6 +98,9 @@ export const urlsMercadoLibre = [
 		url: "https://motos.mercadolibre.com.ar/motomel/strato/concesionaria/motomel-strato_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Strato"],
 	},
+]
+
+export const urlsMercadoLibre2 = [
 	{
 		url: "https://motos.mercadolibre.com.ar/motomel/concesionaria/motomel-xmm_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Xmm"],
