@@ -1,9 +1,13 @@
-/*  export const urlsMercadoLibre =[
+export const urlsMercadoLibre = [
 	{
-		url: "https://motos.mercadolibre.com.ar/concesionaria/rerace-teknial_BRAND_5411085_ITEM*CONDITION_2230284_NoIndex_True",
-		palabraClave: ["Rerace", "Re race"],
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-251s_ITEM*CONDITION_2230284_NoIndex_Truestom%3Dfalse",
+		palabraClave: ["251"],
+	},
+	{
+		url: "https://motos.mercadolibre.com.ar/keeway/concesionaria/keeway-klight-202_ITEM*CONDITION_2230284_NoIndex_True",
+		palabraClave: ["Klight"],
 	}
-] */   
+];
 
 /* export const urlsMercadoLibre = [
 	{
@@ -15,7 +19,7 @@
 		palabraClave: ["180"],
 	},
 	{
-		url: "https://motos.mercadolibre.com.ar/touring/benelli/concesionaria/benelli-251s_ITEM*CONDITION_2230284_NoIndex_True",
+		url: "https://motos.mercadolibre.com.ar/benelli/concesionaria/benelli-251s_ITEM*CONDITION_2230284_NoIndex_Truestom%3Dfalse"
 		palabraClave: ["251"],
 	},
 	{
@@ -100,7 +104,7 @@
 	},
 ] */
 
-export const urlsMercadoLibre = [
+/* export const urlsMercadoLibre = [
 	{
 		url: "https://motos.mercadolibre.com.ar/motomel/concesionaria/motomel-xmm_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Xmm"],
@@ -181,8 +185,8 @@ export const urlsMercadoLibre = [
 		url: "https://motos.mercadolibre.com.ar/concesionaria/rerace-teknial_BRAND_5411085_ITEM*CONDITION_2230284_NoIndex_True",
 		palabraClave: ["Rerace", "Re race"],
 	}
-];  
- 
+]; */
+
 /* const urls = ()=>{
 	console.log(urlsMercadoLibre.length)
 
