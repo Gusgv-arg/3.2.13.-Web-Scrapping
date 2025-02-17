@@ -304,10 +304,14 @@ export const scrapperMercadoLibre = async () => {
 			error: error.response ? error.response.data : error.message,
 		};
 	} finally {
-		// Cierra el navegador
-		console.log("Cerrando el navegador...");
-		isScraping = false;
-		await browser.close();
+		try {
+			console.log("Cerrando el navegador...");
+			isScraping = false;
+			await browser.close();
+			console.log("Navegador cerrado.");
+		} catch (closeError) {
+			console.error("Error al cerrar el navegador:", closeError);
+		}
 	}
 };
 //scrapperMercadoLibre();
