@@ -132,7 +132,7 @@ export const scrapperMercadoLibre = async () => {
 										".poly-component__price .andes-money-amount__fraction"
 									)?.innerText || "Precio no disponible";
 								const link =
-									resultado.querySelector("h2.poly-component__title > a")
+									resultado.querySelector("h3.poly-component__title-wrapper > a")
 										?.href || "Link no disponible";
 								const ubicacion =
 									resultado.querySelector(".poly-component__location")
