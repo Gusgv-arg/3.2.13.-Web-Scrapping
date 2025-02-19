@@ -14,9 +14,9 @@ app.get("/scrape/mercado_libre", async (req, res) => {
   res.status(200).send(allProducts)
 });
 
-app.get("/scrape/credicuotas", async (req, res) => {
+app.post("/scrape/credicuotas", async (req, res) => {
   console.log("Api de Scrape Credicuotas:", req.body)
-  const dni = req.body
+  const dni = req.body.dni
   console.log("DNI recibido:", dni)
   const credito = await scraperCrediCuotas(dni);
   res.status(200).send(credito)
