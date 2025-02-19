@@ -1,5 +1,4 @@
 import puppeteer from "puppeteer";
-const dni = 20471170;
 
 const scraperCrediCuotas = async (dni) => {
 	// Inicializamos el navegador con opciones adicionales
@@ -346,4 +345,4 @@ const scraperCrediCuotas = async (dni) => {
 };
 
 export default scraperCrediCuotas;
-scraperCrediCuotas(20471170);
+//scraperCrediCuotas(20471170);
