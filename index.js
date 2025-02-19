@@ -4,6 +4,7 @@ import { apifyFacebookScraper } from "./apifyFacebookScraper.js";
 import scraperCrediCuotas from "./scraperCrediCuotas.js";
 
 const app = express();
+app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
 let contador = 1
