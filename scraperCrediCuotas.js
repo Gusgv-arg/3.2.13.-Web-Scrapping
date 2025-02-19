@@ -4,16 +4,12 @@ const dni = 20471170;
 const scraperCrediCuotas = async (dni) => {
 	// Inicializamos el navegador con opciones adicionales
 	const browser = await puppeteer.launch({
-		headless: false, // `headless: false` para ver lo que sucede en el navegador
-		args: ["--no-sandbox", "--disable-setuid-sandbox"], // Opciones para mejorar la estabilidad
-		defaultViewport: null, // Usar la resolución nativa del navegador
-		timeout: 60000, // Aumentar el tiempo de espera para evitar desconexiones prematuras
+		headless: true, // `headless: false` para ver lo que sucede en el navegador
+		args: ["--no-sandbox", "--disable-setuid-sandbox"], // Opciones para mejorar la estabilidad		
 	});
 
 	const page = await browser.newPage();
-
-	// ... existing code ...
-
+	
 	try {
 		// Navegamos directamente a la página de login
 		console.log("Navegando a https://comercios.credicuotas.com.ar/#/login");
@@ -234,15 +230,54 @@ const scraperCrediCuotas = async (dni) => {
 															);
 															if (montoValue.trim() !== "") {
 																console.log("Valor capturado:", montoValue);
-																return montoValue; // Devolvemos el valor capturado
+																break; // Salimos del bucle si encontramos el valor
 															}
 														}
 														await page.waitForTimeout(1500); // Esperar medio segundo antes de volver a intentar
 													}
 
-													throw new Error(
-														"El span está vacío después de múltiples intentos."
-													);
+													// Esperamos a que la ul con los requisitos esté disponible
+													await page.waitForSelector("ul.documents", {
+														timeout: 60000,
+													});
+
+													// Capturamos los requisitos de la lista
+													const requisitosList = await page.$$(
+														"ul.documents li"
+													); // Obtenemos todos los li dentro de la ul
+
+													if (requisitosList.length > 0) {
+														const requisitos = await Promise.all(
+															requisitosList.map(async (li) => {
+																// Capturamos solo el texto de los li, excluyendo el texto de los span
+																const liText = await page.evaluate((item) => {
+																	// Obtenemos el texto del li y excluimos el texto de los span
+																	const spans = item.querySelectorAll("span");
+																	spans.forEach((span) => span.remove()); // Eliminamos los span del li
+																	return item.textContent.trim(); // Retornamos el texto restante
+																}, li);
+																return liText; // Retornamos el texto limpio
+															})
+														);
+
+														// Unimos los requisitos en un string separado por comas
+														const requisitosString = requisitos.join(", ");
+
+														// Devolvemos el objeto con el monto y los requisitos
+														const object = {
+															monto: montoValue,
+															requisitos: requisitosString,
+														};
+														console.log("Objeto a devolver:", object);
+
+														// Cerramos el navegador
+														await browser.close(); // Cerrar el navegador
+														return object;
+													} else {
+														throw new Error(
+															"No se encontraron elementos 'li' dentro de la ul con la clase 'documents'."
+														);
+													}
 												} else {
 													throw new Error(
 														"El botón encontrado no tiene el texto 'Continuar'."
