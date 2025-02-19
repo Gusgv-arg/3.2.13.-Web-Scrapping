@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer";
+const dni = 20471170;
 
-const scraperCrediCuotas = async () => {
+const scraperCrediCuotas = async (dni) => {
 	// Inicializamos el navegador con opciones adicionales
 	const browser = await puppeteer.launch({
 		headless: false, // `headless: false` para ver lo que sucede en el navegador
@@ -149,7 +150,7 @@ const scraperCrediCuotas = async () => {
 
 							if (subProductoLabel) {
 								console.log(
-									"Label 'Sub Producto' encontrado. Buscando el select asociado..."
+									"'Sub Producto' encontrado. Buscando el select asociado..."
 								);
 
 								// Buscamos el select que sigue al label
@@ -161,12 +162,103 @@ const scraperCrediCuotas = async () => {
 
 								if (selectElement) {
 									console.log(
-										"Select encontrado. Seleccionando la opción 'MOTOS'..."
+										"Seleccionando la opción de subproducto 'MOTOS'..."
 									);
 
 									// Seleccionamos la opción con value="2"
 									await selectElement.select("2"); // Usamos el value para seleccionar la opción
-									console.log("Opción 'MOTOS' seleccionada nuevamente!!.");
+									console.log("Opción subproducto 'MOTOS' seleccionada");
+
+									// Buscamos el input para el DNI
+									const dniInput = await page.$(
+										'input[title="Sólo números, entre 6 y 9 dígitos máximo"].form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required.ng-valid-pattern'
+									);
+
+									if (dniInput) {
+										console.log(
+											"Input para DNI encontrado. Colocando el DNI: ",
+											dni
+										);
+										await dniInput.type(dni.toString(), { delay: 100 }); // Colocamos el DNI con un pequeño retraso
+
+										// Simulamos la pulsación de la tecla "Enter"
+										await dniInput.press("Enter");
+
+										// Buscamos la primer opción de la PERSONA que aparece"
+										const selectElement = await page.$(
+											"select.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required"
+										);
+
+										if (selectElement) {
+											console.log("Seleccionando la opción de PERSONA");
+
+											// Buscamos el botón "Continuar"
+											const continuarButton = await page.$(
+												"button.btn.btn-default-yellow"
+											);
+											if (continuarButton) {
+												const buttonText = await page.evaluate(
+													(button) => button.textContent.trim(),
+													continuarButton
+												);
+												if (buttonText === "Continuar") {
+													console.log(
+														"Haciendo clic en el botón 'Continuar'..."
+													);
+													await continuarButton.click(); // Hacemos clic en el botón
+													console.log("Botón 'Continuar' clickeado.");
+
+													// Esperamos a que el contenido de la nueva página se cargue
+													await page.waitForSelector("#step-2.panel", {
+														timeout: 60000,
+													});
+
+													// Esperamos a que el span esté disponible
+													const montoSpanSelector =
+														".monto.font-weight-400.ng-binding";
+													await page.waitForSelector(montoSpanSelector, {
+														timeout: 60000,
+													});
+
+													// Usamos un bucle para esperar hasta que el contenido del span no esté vacío
+													let montoValue = "";
+													for (let i = 0; i < 15; i++) {
+														// Intentar 10 veces
+														const montoSpan = await page.$(
+															"#step-2.panel " + montoSpanSelector
+														);
+														if (montoSpan) {
+															montoValue = await page.evaluate(
+																(span) => span.textContent,
+																montoSpan
+															);
+															if (montoValue.trim() !== "") {
+																console.log("Valor capturado:", montoValue);
+																return montoValue; // Devolvemos el valor capturado
+															}
+														}
+														await page.waitForTimeout(1500); // Esperar medio segundo antes de volver a intentar
+													}
+
+													throw new Error(
+														"El span está vacío después de múltiples intentos."
+													);
+												} else {
+													throw new Error(
+														"El botón encontrado no tiene el texto 'Continuar'."
+													);
+												}
+											} else {
+												throw new Error("No se encontró el botón 'Continuar'.");
+											}
+										} else {
+											throw new Error(
+												"No se encontró el select con la clase especificada."
+											);
+										}
+									} else {
+										throw new Error("No se encontró el input para DNI.");
+									}
 								} else {
 									throw new Error(
 										"No se encontró el select asociado al label 'Sub Producto'."
@@ -201,4 +293,4 @@ const scraperCrediCuotas = async () => {
 };
 
 export default scraperCrediCuotas;
-scraperCrediCuotas();
+scraperCrediCuotas(20471170);
