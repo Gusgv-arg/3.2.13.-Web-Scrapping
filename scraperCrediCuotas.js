@@ -5,11 +5,11 @@ const scraperCrediCuotas = async (dni) => {
 	// Inicializamos el navegador con opciones adicionales
 	const browser = await puppeteer.launch({
 		headless: true, // `headless: false` para ver lo que sucede en el navegador
-		args: ["--no-sandbox", "--disable-setuid-sandbox"], // Opciones para mejorar la estabilidad		
+		args: ["--no-sandbox", "--disable-setuid-sandbox"], // Opciones para mejorar la estabilidad
 	});
 
 	const page = await browser.newPage();
-	
+
 	try {
 		// Navegamos directamente a la página de login
 		console.log("Navegando a https://comercios.credicuotas.com.ar/#/login");
@@ -204,10 +204,27 @@ const scraperCrediCuotas = async (dni) => {
 													await continuarButton.click(); // Hacemos clic en el botón
 													console.log("Botón 'Continuar' clickeado.");
 
-													// Esperamos a que el contenido de la nueva página se cargue
-													await page.waitForSelector("#step-2.panel", {
+													// Esperamos a que la nueva página se cargue completamente
+													await page.waitForNavigation({
+														waitUntil: "networkidle2",
 														timeout: 60000,
 													});
+
+													// Esperamos a que el contenido de la nueva página se cargue
+													const stepSelector = "#step-2.panel";
+													try {
+														await page.waitForSelector(stepSelector, {
+															timeout: 60000,
+														});
+													} catch (error) {
+														console.error(
+															`Error: No se encontró el selector ${stepSelector}.`,
+															error
+														);
+														throw new Error(
+															`No se encontró el selector ${stepSelector}.`
+														);
+													}
 
 													// Esperamos a que el span esté disponible
 													const montoSpanSelector =
@@ -320,10 +337,11 @@ const scraperCrediCuotas = async (dni) => {
 			throw new Error("No se encontró el botón de login.");
 		}
 	} catch (error) {
-		console.error("Ocurrió un error:", error);
+		console.error("Ocurrió un error en scraperCrediCuotas.js:", error);
+		throw error; // Re-lanzar el error para que pueda ser manejado por el llamador
 	} finally {
 		// Cerramos el navegador al finalizar
-		//await browser.close(); // Descomentar esta línea si deseas cerrar el navegador automáticamente
+		await browser.close(); 
 	}
 };
 
