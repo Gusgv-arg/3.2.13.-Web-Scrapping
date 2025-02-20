@@ -2,7 +2,6 @@ import express from "express";
 import { scrapperMercadoLibre } from "./scrapperMercadoLibre.js";
 import { apifyFacebookScraper } from "./apifyFacebookScraper.js";
 import scraperCrediCuotas from "./scraperCrediCuotas.js";
-import scraperCrediCuotas2 from "./scraperCrediCuotas2.js";
 
 const app = express();
 app.use(express.json());
@@ -20,7 +19,7 @@ app.post("/scrape/credicuotas", async (req, res) => {
   console.log("Api de Scrape Credicuotas:", req.body)
   const dni = req.body.dni
   console.log("DNI recibido:", dni)
-  const credito = await scraperCrediCuotas2(dni);
+  const credito = await scraperCrediCuotas(dni);
   res.status(200).send(credito)
 });
 

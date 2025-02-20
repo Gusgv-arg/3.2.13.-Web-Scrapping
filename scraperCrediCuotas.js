@@ -1,352 +1,320 @@
 import puppeteer from "puppeteer";
 
 const scraperCrediCuotas = async (dni) => {
-	// Inicializamos el navegador con opciones adicionales
-	const browser = await puppeteer.launch({
-		headless: true, // `headless: false` para ver lo que sucede en el navegador
-		args: ["--no-sandbox", "--disable-setuid-sandbox"], // Opciones para mejorar la estabilidad
-	});
+  let browser;
+  try {
+    console.log("Iniciando Puppeteer... (headless: true)");
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
 
-	const page = await browser.newPage();
+    const page = await browser.newPage();
 
-	try {
-		// Navegamos directamente a la página de login
-		console.log("Navegando a https://comercios.credicuotas.com.ar/#/login");
-		await page.goto("https://comercios.credicuotas.com.ar/#/login", {
-			waitUntil: "networkidle2",
-			timeout: 60000,
-		});
+    // Configuración para evitar bloqueos en modo headless
+    console.log("Configurando userAgent y viewport...");
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    );
+    await page.setViewport({ width: 1280, height: 720 });
 
-		// DEPURACIÓN: Obtenemos el HTML completo de la página después de la navegación
-		console.log("Obteniendo el HTML completo de la página de login...");
-		const pageContent = await page.content();
-		//console.log('HTML de la página:', pageContent);
+    // Ir a la página de login
+    console.log("Navegando a https://comercios.credicuotas.com.ar/#/login...");
+    await page.goto("https://comercios.credicuotas.com.ar/#/login", {
+      waitUntil: "networkidle2",
+      timeout: 60000,
+    });
+    console.log("Página de login cargada.");
 
-		// DEPURACIÓN: Inspeccionamos todos los elementos <input> y <button> en la página de login
-		console.log(
-			"Inspeccionando elementos <input> y <button> en el DOM de la página de login..."
-		);
-		const debugElements = await page.evaluate(() => {
-			const elements = Array.from(document.querySelectorAll("input, button"));
-			return elements.map((el) => ({
-				tagName: el.tagName,
-				id: el.id,
-				name: el.name,
-				className: el.className,
-				value: el.value,
-				placeholder: el.placeholder,
-			}));
-		});
-		//console.log("Elementos encontrados en la página de login:", debugElements);
+    // Username
+    console.log("Esperando por el campo de usuario (#username)...");
+    await page.waitForSelector("#username", { timeout: 30000 });
+    const userField = await page.$("#username");
+    if (!userField) {
+      console.log("No se encontró el campo de usuario.");
+      return {
+        success: false,
+        error: "No se encontró el campo de usuario.",
+      };
+    }
+    console.log("Escribiendo el nombre de usuario...");
+    await userField.type("GGLUNZ", { delay: 100 });
 
-		// Aquí puedes continuar con el proceso de login como antes
-		// Esperamos explícitamente por el campo de usuario
-		console.log("Esperando por el campo de usuario...");
-		await page.waitForSelector("#username", { timeout: 30000 }); // Esperamos hasta que el campo de usuario esté disponible
+    // Password
+    console.log("Esperando por el campo de contraseña (#password)...");
+    const passwordField = await page.$("#password");
+    if (!passwordField) {
+      console.log("No se encontró el campo de contraseña.");
+      return {
+        success: false,
+        error: "No se encontró el campo de contraseña.",
+      };
+    }
+    console.log("Escribiendo la contraseña...");
+    await passwordField.type("840728", { delay: 100 });
 
-		// Buscamos el input de usuario usando el atributo id="username"
-		console.log("Escribiendo el nombre de usuario...");
-		const userField = await page.$("#username"); // Selector basado en id
-		if (userField) {
-			await userField.type("GGLUNZ", { delay: 100 }); // Tipeamos el usuario con un pequeño retraso
-		} else {
-			throw new Error("No se encontró el campo de usuario.");
-		}
+    // Botón de login
+    console.log("Buscando el botón de login (button[name='submit'])...");
+    const loginButton = await page.$('button[name="submit"]');
+    if (!loginButton) {
+      console.log("No se encontró el botón de login.");
+      return {
+        success: false,
+        error: "No se encontró el botón de login.",
+      };
+    }
+    console.log("Haciendo clic en el botón de login...");
+    await Promise.all([
+      loginButton.click(),
+      page.waitForNavigation({ waitUntil: "networkidle2", timeout: 60000 }),
+    ]);
+    console.log("Inicio de sesión exitoso.");
 
-		// Buscamos el input de contraseña usando el atributo id="password"
-		console.log("Escribiendo la contraseña...");
-		const passwordField = await page.$("#password"); // Selector basado en id
-		if (passwordField) {
-			await passwordField.type("840728", { delay: 100 }); // Tipeamos la contraseña con un pequeño retraso
-		} else {
-			throw new Error("No se encontró el campo de contraseña.");
-		}
+    // Botón "Comenzar"
+    const yellowButtonSelector =
+      ".padding-10-l.padding-10-r.margin-10-b .btn.btn-default-yellow";
+    console.log("Buscando el botón 'Comenzar'...");
+    await page.waitForSelector(yellowButtonSelector, { timeout: 60000 });
+    const yellowButton = await page.$(yellowButtonSelector);
+    if (!yellowButton) {
+      console.log("No se encontró el botón 'Comenzar'.");
+      return {
+        success: false,
+        error: "No se encontró el botón 'Comenzar'.",
+      };
+    }
+    const buttonText = await page.evaluate(
+      (btn) => btn.textContent.trim(),
+      yellowButton
+    );
+    console.log("Texto del botón encontrado:", buttonText);
+    if (buttonText !== "Comenzar") {
+      console.log("El botón encontrado no tiene el texto 'Comenzar'.");
+      return {
+        success: false,
+        error: "El botón encontrado no tiene el texto 'Comenzar'.",
+      };
+    }
+    console.log("Haciendo clic en el botón 'Comenzar'...");
+    await yellowButton.click();
 
-		// Buscamos el botón de login usando el atributo name="submit"
-		console.log("Haciendo clic en el botón de login...");
-		const loginButton = await page.$('button[name="submit"]');
-		if (loginButton) {
-			await Promise.all([
-				loginButton.click(), // Hacemos clic en el botón
-				page.waitForNavigation({ waitUntil: "networkidle2", timeout: 60000 }), // Esperamos a que la nueva página cargue completamente
-			]);
-			console.log("Inicio de sesión exitoso.");
+    // Formulario initForm
+    console.log("Buscando el formulario con name='initForm'...");
+    await page.waitForSelector('form[name="initForm"]', { timeout: 60000 });
+    const form = await page.$('form[name="initForm"]');
+    if (!form) {
+      console.log("No se encontró el formulario 'initForm'.");
+      return {
+        success: false,
+        error: "No se encontró el formulario 'initForm'.",
+      };
+    }
 
-			// Hacemos clic en el botón "Comenzar" dentro del div específico
-			console.log("Haciendo clic en el botón 'Comenzar'...");
+    // Select principal
+    console.log("Buscando el select principal dentro de initForm...");
+    const selectPrincipal = await form.$(
+      "select.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required"
+    );
+    if (!selectPrincipal) {
+      console.log("No se encontró el select principal dentro del formulario.");
+      return {
+        success: false,
+        error: "No se encontró el select dentro del formulario.",
+      };
+    }
+    console.log("Seleccionando la opción 'MOTO' (value=2)...");
+    await selectPrincipal.select("2");
 
-			const yellowButtonSelector =
-				".padding-10-l.padding-10-r.margin-10-b .btn.btn-default-yellow";
+    // Sub Producto
+    console.log("Buscando label 'Sub Producto'...");
+    const labels = await page.$$("label.label-input");
+    let subProductoLabel = null;
+    for (const label of labels) {
+      const lblText = await page.evaluate((el) => el.textContent.trim(), label);
+      if (lblText === "Sub Producto") {
+        subProductoLabel = label;
+        break;
+      }
+    }
+    if (!subProductoLabel) {
+      console.log("No se encontró el label 'Sub Producto'.");
+      return {
+        success: false,
+        error: "No se encontró el label 'Sub Producto'.",
+      };
+    }
+    console.log("Obteniendo select asociado a 'Sub Producto'...");
+    const selectElement = await subProductoLabel.evaluateHandle(
+      (label) => label.nextElementSibling
+    );
+    if (!selectElement) {
+      console.log(
+        "No se encontró el select asociado al label 'Sub Producto'."
+      );
+      return {
+        success: false,
+        error: "No se encontró el select asociado a 'Sub Producto'.",
+      };
+    }
+    console.log("Seleccionando la opción 'MOTOS' (value=2)...");
+    await selectElement.select("2");
 
-			let yellowButton;
-			try {
-				// Esperamos explícitamente por el botón 'Comenzar'
-				await page.waitForSelector(yellowButtonSelector, { timeout: 60000 }); // Aumentar el tiempo de espera
-				yellowButton = await page.$(yellowButtonSelector); // Seleccionamos el botón
-			} catch (error) {
-				throw new Error(
-					"No se encontró el botón 'Comenzar' después de esperar."
-				);
-			}
+    // DNI
+    console.log("Buscando el input para DNI...");
+    const dniInput = await page.$(
+      'input[title="Sólo números, entre 6 y 9 dígitos máximo"].form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required.ng-valid-pattern'
+    );
+    if (!dniInput) {
+      console.log("No se encontró el input para DNI.");
+      return {
+        success: false,
+        error: "No se encontró el input para DNI.",
+      };
+    }
+    console.log("Escribiendo DNI:", dni);
+    await dniInput.type(dni.toString(), { delay: 100 });
+    console.log("Presionando Enter en el input de DNI...");
+    await dniInput.press("Enter");
 
-			if (yellowButton) {
-				// Verificamos el texto del botón antes de hacer clic
-				const buttonText = await page.evaluate(
-					(button) => button.textContent.trim(),
-					yellowButton
-				);
-				console.log("Texto del botón encontrado:", buttonText);
+    console.log("Buscando el select de PERSONA...");
+    const personaSelect = await page.$(
+      "select.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required"
+    );
+    if (!personaSelect) {
+      console.log("No se encontró el select de PERSONA.");
+      return {
+        success: false,
+        error: "No se encontró el select de PERSONA.",
+      };
+    }
 
-				if (buttonText === "Comenzar") {
-					console.log("Intentando hacer clic en el botón 'Comenzar'...");
-					await yellowButton.click(); // Hacemos clic en el botón amarillo
+    // Botón "Continuar"
+    console.log("Buscando el botón 'Continuar'...");
+    const continuarButton = await page.$("button.btn.btn-default-yellow");
+    if (!continuarButton) {
+      console.log("No se encontró el botón 'Continuar'.");
+      return {
+        success: false,
+        error: "No se encontró el botón 'Continuar'.",
+      };
+    }
+    const continuarText = await page.evaluate(
+      (btn) => btn.textContent.trim(),
+      continuarButton
+    );
+    console.log("Texto del botón encontrado:", continuarText);
+    if (continuarText !== "Continuar") {
+      console.log("El botón encontrado no tiene el texto 'Continuar'.");
+      return {
+        success: false,
+        error: "El botón encontrado no tiene el texto 'Continuar'.",
+      };
+    }
+    console.log("Haciendo clic en 'Continuar'...");
+    await Promise.all([
+      continuarButton.click(),
+      page.waitForNavigation({ waitUntil: "networkidle2", timeout: 120000 }),
+    ]);
+    console.log("Nueva vista cargada tras 'Continuar'.");
 
-					console.log("Buscando el formulario con name='initForm'...");
+    // Esperamos #step-2.panel con reintentos
+    console.log("Esperando selector #step-2.panel...");
+    const stepSelector = "#step-2.panel";
+    let stepLoaded = false;
+    for (let attempt = 0; attempt < 5; attempt++) {
+      try {
+        await page.waitForSelector(stepSelector, { timeout: 60000 });
+        stepLoaded = true;
+        console.log("#step-2.panel encontrado!");
+        break;
+      } catch (err) {
+        console.log(
+          `Intento ${attempt + 1}: No se encontró #step-2.panel. Reintentando...`
+        );
+        await page.waitForTimeout(3000);
+      }
+    }
+    if (!stepLoaded) {
+      console.log("No se encontró #step-2.panel después de varios intentos.");
+      return {
+        success: false,
+        error: "No se encontró #step-2.panel después de varios intentos.",
+      };
+    }
 
-					// Esperamos a que el formulario esté disponible
-					await page.waitForSelector('form[name="initForm"]', {
-						timeout: 60000,
-					});
+    // Monto
+    console.log("Buscando el span con el monto (.monto.font-weight-400.ng-binding)...");
+    const montoSpanSelector = ".monto.font-weight-400.ng-binding";
+    await page.waitForSelector(montoSpanSelector, { timeout: 60000 });
 
-					// Seleccionamos el formulario
-					const form = await page.$('form[name="initForm"]');
-					if (form) {
-						console.log("Formulario encontrado. Buscando el select...");
+    let montoValue = "";
+    for (let i = 0; i < 15; i++) {
+      const montoSpan = await page.$(`#step-2.panel ${montoSpanSelector}`);
+      if (montoSpan) {
+        montoValue = await page.evaluate((span) => span.textContent, montoSpan);
+        if (montoValue.trim() !== "") {
+          console.log("Monto capturado:", montoValue);
+          break;
+        }
+      }
+      await page.waitForTimeout(1500);
+    }
 
-						// Buscamos el select dentro del formulario
-						const select = await form.$(
-							"select.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required"
-						);
+    // Requisitos
+    console.log("Buscando lista de requisitos (ul.documents)...");
+    await page.waitForSelector("ul.documents", { timeout: 60000 });
+    const requisitosList = await page.$$("ul.documents li");
+    if (requisitosList.length === 0) {
+      console.log("No se encontraron elementos 'li' dentro de ul.documents.");
+      return {
+        success: false,
+        error: "No se encontraron elementos 'li' dentro de ul.documents.",
+      };
+    }
+    console.log("Capturando requisitos...");
+    const requisitos = await Promise.all(
+      requisitosList.map(async (li) => {
+        return page.evaluate((item) => {
+          const spans = item.querySelectorAll("span");
+          spans.forEach((span) => span.remove());
+          return item.textContent.trim();
+        }, li);
+      })
+    );
 
-						if (select) {
-							console.log(
-								"Select encontrado. Seleccionando la opción 'MOTO'..."
-							);
+    // Armamos el objeto final
+    const objetoFinal = {
+      success: true,
+      data: {
+        monto: montoValue,
+        requisitos: requisitos.join(", "),
+      },
+    };
+    console.log("Objeto final a devolver:", objetoFinal);
 
-							// Seleccionamos la opción con label="MOTO" y value="2"
-							await select.select("2"); // Usamos el value para seleccionar la opción
-							console.log("Opción 'MOTO' seleccionada.");
+    // Cerramos el navegador y retornamos
+    console.log("Cerrando navegador...");
+    await browser.close();
+    console.log("Navegador cerrado. Devolviendo objeto final...");
 
-							// Buscamos todos los labels con la clase "label-input"
-							const labels = await page.$$("label.label-input");
-							let subProductoLabel = null;
-
-							// Filtramos para encontrar el label que contiene "Sub Producto"
-							for (const label of labels) {
-								const labelText = await page.evaluate(
-									(el) => el.textContent.trim(),
-									label
-								);
-								if (labelText === "Sub Producto") {
-									subProductoLabel = label;
-									break;
-								}
-							}
-
-							if (subProductoLabel) {
-								console.log(
-									"'Sub Producto' encontrado. Buscando el select asociado..."
-								);
-
-								// Buscamos el select que sigue al label
-								const selectElement = await subProductoLabel.evaluateHandle(
-									(label) => {
-										return label.nextElementSibling; // Asumiendo que el select es el siguiente elemento
-									}
-								);
-
-								if (selectElement) {
-									console.log(
-										"Seleccionando la opción de subproducto 'MOTOS'..."
-									);
-
-									// Seleccionamos la opción con value="2"
-									await selectElement.select("2"); // Usamos el value para seleccionar la opción
-									console.log("Opción subproducto 'MOTOS' seleccionada");
-
-									// Buscamos el input para el DNI
-									const dniInput = await page.$(
-										'input[title="Sólo números, entre 6 y 9 dígitos máximo"].form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required.ng-valid-pattern'
-									);
-
-									if (dniInput) {
-										console.log(
-											"Input para DNI encontrado. Colocando el DNI: ",
-											dni
-										);
-										await dniInput.type(dni.toString(), { delay: 100 }); // Colocamos el DNI con un pequeño retraso
-
-										// Simulamos la pulsación de la tecla "Enter"
-										await dniInput.press("Enter");
-
-										// Buscamos la primer opción de la PERSONA que aparece"
-										const selectElement = await page.$(
-											"select.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required"
-										);
-
-										if (selectElement) {
-											console.log("Seleccionando la opción de PERSONA");
-
-											// Buscamos el botón "Continuar"
-											const continuarButton = await page.$(
-												"button.btn.btn-default-yellow"
-											);
-											if (continuarButton) {
-												const buttonText = await page.evaluate(
-													(button) => button.textContent.trim(),
-													continuarButton
-												);
-												if (buttonText === "Continuar") {
-													console.log(
-														"Haciendo clic en el botón 'Continuar'..."
-													);
-													await continuarButton.click(); // Hacemos clic en el botón
-													console.log("Botón 'Continuar' clickeado.");
-
-													// Esperamos a que la nueva página se cargue completamente
-													await page.waitForNavigation({
-														waitUntil: "networkidle2",
-														timeout: 120000,
-													});
-
-													// Esperamos a que el contenido de la nueva página se cargue
-													const stepSelector = "#step-2.panel";
-													let stepLoaded = false;
-
-													for (let attempt = 0; attempt < 5; attempt++) {
-														try {
-															await page.waitForSelector(stepSelector, { timeout: 60000 });
-															stepLoaded = true;
-															console.log("stepSelector #step-2.panel encontrado!")
-															break; // Salimos del bucle si encontramos el selector
-														} catch (error) {
-															console.log(`Intento ${attempt + 1}: No se encontró el selector ${stepSelector}. Reintentando...`);
-															await page.waitForTimeout(2000); // Esperar 2 segundos antes de volver a intentar
-														}
-													}
-									
-													if (!stepLoaded) {
-														throw new Error(`No se encontró el selector ${stepSelector} después de varios intentos.`);
-													}
-
-													// Esperamos a que el span esté disponible
-													const montoSpanSelector =
-														".monto.font-weight-400.ng-binding";
-													await page.waitForSelector(montoSpanSelector, {
-														timeout: 60000,
-													});
-
-													// Usamos un bucle para esperar hasta que el contenido del span no esté vacío
-													let montoValue = "";
-													for (let i = 0; i < 15; i++) {
-														// Intentar 10 veces
-														const montoSpan = await page.$(
-															"#step-2.panel " + montoSpanSelector
-														);
-														if (montoSpan) {
-															montoValue = await page.evaluate(
-																(span) => span.textContent,
-																montoSpan
-															);
-															if (montoValue.trim() !== "") {
-																console.log("Valor capturado:", montoValue);
-																break; // Salimos del bucle si encontramos el valor
-															}
-														}
-														await page.waitForTimeout(1500); // Esperar medio segundo antes de volver a intentar
-													}
-
-													// Esperamos a que la ul con los requisitos esté disponible
-													await page.waitForSelector("ul.documents", {
-														timeout: 60000,
-													});
-
-													// Capturamos los requisitos de la lista
-													const requisitosList = await page.$$(
-														"ul.documents li"
-													); // Obtenemos todos los li dentro de la ul
-
-													if (requisitosList.length > 0) {
-														const requisitos = await Promise.all(
-															requisitosList.map(async (li) => {
-																// Capturamos solo el texto de los li, excluyendo el texto de los span
-																const liText = await page.evaluate((item) => {
-																	// Obtenemos el texto del li y excluimos el texto de los span
-																	const spans = item.querySelectorAll("span");
-																	spans.forEach((span) => span.remove()); // Eliminamos los span del li
-																	return item.textContent.trim(); // Retornamos el texto restante
-																}, li);
-																return liText; // Retornamos el texto limpio
-															})
-														);
-
-														// Unimos los requisitos en un string separado por comas
-														const requisitosString = requisitos.join(", ");
-
-														// Devolvemos el objeto con el monto y los requisitos
-														const object = {
-															monto: montoValue,
-															requisitos: requisitosString,
-														};
-														console.log("Objeto a devolver:", object);
-
-														// Cerramos el navegador
-														await browser.close(); // Cerrar el navegador
-														return object;
-													} else {
-														throw new Error(
-															"No se encontraron elementos 'li' dentro de la ul con la clase 'documents'."
-														);
-													}
-												} else {
-													throw new Error(
-														"El botón encontrado no tiene el texto 'Continuar'."
-													);
-												}
-											} else {
-												throw new Error("No se encontró el botón 'Continuar'.");
-											}
-										} else {
-											throw new Error(
-												"No se encontró el select con la clase especificada."
-											);
-										}
-									} else {
-										throw new Error("No se encontró el input para DNI.");
-									}
-								} else {
-									throw new Error(
-										"No se encontró el select asociado al label 'Sub Producto'."
-									);
-								}
-							} else {
-								throw new Error("No se encontró el label 'Sub Producto'.");
-							}
-						} else {
-							throw new Error(
-								"No se encontró el select dentro del formulario."
-							);
-						}
-					} else {
-						throw new Error("No se encontró el formulario 'initForm'.");
-					}
-				} else {
-					throw new Error("El botón encontrado no tiene el texto 'Comenzar'.");
-				}
-			} else {
-				throw new Error("No se encontró el botón 'Comenzar'.");
-			}
-		} else {
-			throw new Error("No se encontró el botón de login.");
-		}
-	} catch (error) {
-		console.error("Ocurrió un error en scraperCrediCuotas.js:", error);
-		return error; // Re-lanzar el error para que pueda ser manejado por el llamador
-	} finally {
-		// Cerramos el navegador al finalizar
-		await browser.close(); 
-	}
+    return objetoFinal;
+  } catch (error) {
+    // Si ocurre un error fuera de los retornos controlados
+    console.log("Error inesperado:", error);
+    if (browser) {
+      await browser.close();
+      console.log("Navegador cerrado tras el error inesperado.");
+    }
+    // Retornamos un objeto de error con el mensaje
+    return {
+      success: false,
+      error: error.message || "Error desconocido",
+    };
+  }
 };
-
 export default scraperCrediCuotas;
-scraperCrediCuotas(20471170);
+
+//scraperCrediCuotas(20471170)
+
+
+
