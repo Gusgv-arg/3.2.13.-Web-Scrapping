@@ -206,23 +206,27 @@ const scraperCrediCuotas = async (dni) => {
 													// Esperamos a que la nueva página se cargue completamente
 													await page.waitForNavigation({
 														waitUntil: "networkidle2",
-														timeout: 60000,
+														timeout: 120000,
 													});
 
 													// Esperamos a que el contenido de la nueva página se cargue
 													const stepSelector = "#step-2.panel";
-													try {
-														await page.waitForSelector(stepSelector, {
-															timeout: 60000,
-														});
-													} catch (error) {
-														console.error(
-															`Error: No se encontró el selector ${stepSelector}.`,
-															error
-														);
-														throw new Error(
-															`No se encontró el selector ${stepSelector}.`
-														);
+													let stepLoaded = false;
+
+													for (let attempt = 0; attempt < 5; attempt++) {
+														try {
+															await page.waitForSelector(stepSelector, { timeout: 60000 });
+															stepLoaded = true;
+															console.log("stepSelector #step-2.panel encontrado!")
+															break; // Salimos del bucle si encontramos el selector
+														} catch (error) {
+															console.log(`Intento ${attempt + 1}: No se encontró el selector ${stepSelector}. Reintentando...`);
+															await page.waitForTimeout(2000); // Esperar 2 segundos antes de volver a intentar
+														}
+													}
+									
+													if (!stepLoaded) {
+														throw new Error(`No se encontró el selector ${stepSelector} después de varios intentos.`);
 													}
 
 													// Esperamos a que el span esté disponible
@@ -337,7 +341,7 @@ const scraperCrediCuotas = async (dni) => {
 		}
 	} catch (error) {
 		console.error("Ocurrió un error en scraperCrediCuotas.js:", error);
-		throw error; // Re-lanzar el error para que pueda ser manejado por el llamador
+		return error; // Re-lanzar el error para que pueda ser manejado por el llamador
 	} finally {
 		// Cerramos el navegador al finalizar
 		await browser.close(); 
@@ -345,4 +349,4 @@ const scraperCrediCuotas = async (dni) => {
 };
 
 export default scraperCrediCuotas;
-//scraperCrediCuotas(20471170);
+scraperCrediCuotas(20471170);
