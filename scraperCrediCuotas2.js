@@ -1,41 +1,49 @@
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-extra";
+import StealthPlugin from "puppeteer-extra-plugin-stealth";
 
-const scraperCrediCuotas = async (dni) => {
+// Registramos el plugin stealth para ocultar indicios de headless
+puppeteer.use(StealthPlugin());
+
+const scraperCrediCuotas2 = async (dni) => {
   let browser;
   try {
-    console.log("Iniciando Puppeteer... (headless: true)");
+    console.log("Iniciando Puppeteer con plugin stealth...");
     browser = await puppeteer.launch({
-      headless: false,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      headless: true,
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        // Opcional, si da problemas:
+        // "--disable-gpu",
+        // "--disable-dev-shm-usage",
+      ],
     });
 
     const page = await browser.newPage();
 
-    // Configuración para evitar bloqueos en modo headless
+    // Ajustamos un timeout por defecto para todas las operaciones (esperas de selectores, etc.)
+    page.setDefaultTimeout(120000); // 2 minutos de timeout general
+
     console.log("Configurando userAgent y viewport...");
     await page.setUserAgent(
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
     );
     await page.setViewport({ width: 1280, height: 720 });
 
-    // Ir a la página de login
-    console.log("Navegando a https://comercios.credicuotas.com.ar/#/login...");
+    console.log("Navegando a la página de login...");
     await page.goto("https://comercios.credicuotas.com.ar/#/login", {
-      waitUntil: "networkidle2",
+      waitUntil: "networkidle2", // Esperamos que haya 0 o casi 0 peticiones en red
       timeout: 60000,
     });
     console.log("Página de login cargada.");
 
     // Username
     console.log("Esperando por el campo de usuario (#username)...");
-    await page.waitForSelector("#username", { timeout: 30000 });
+    await page.waitForSelector("#username");
     const userField = await page.$("#username");
     if (!userField) {
       console.log("No se encontró el campo de usuario.");
-      return {
-        success: false,
-        error: "No se encontró el campo de usuario.",
-      };
+      return { success: false, error: "No se encontró el campo de usuario." };
     }
     console.log("Escribiendo el nombre de usuario...");
     await userField.type("GGLUNZ", { delay: 100 });
@@ -45,10 +53,7 @@ const scraperCrediCuotas = async (dni) => {
     const passwordField = await page.$("#password");
     if (!passwordField) {
       console.log("No se encontró el campo de contraseña.");
-      return {
-        success: false,
-        error: "No se encontró el campo de contraseña.",
-      };
+      return { success: false, error: "No se encontró el campo de contraseña." };
     }
     console.log("Escribiendo la contraseña...");
     await passwordField.type("840728", { delay: 100 });
@@ -58,10 +63,7 @@ const scraperCrediCuotas = async (dni) => {
     const loginButton = await page.$('button[name="submit"]');
     if (!loginButton) {
       console.log("No se encontró el botón de login.");
-      return {
-        success: false,
-        error: "No se encontró el botón de login.",
-      };
+      return { success: false, error: "No se encontró el botón de login." };
     }
     console.log("Haciendo clic en el botón de login...");
     await Promise.all([
@@ -78,10 +80,7 @@ const scraperCrediCuotas = async (dni) => {
     const yellowButton = await page.$(yellowButtonSelector);
     if (!yellowButton) {
       console.log("No se encontró el botón 'Comenzar'.");
-      return {
-        success: false,
-        error: "No se encontró el botón 'Comenzar'.",
-      };
+      return { success: false, error: "No se encontró el botón 'Comenzar'." };
     }
     const buttonText = await page.evaluate(
       (btn) => btn.textContent.trim(),
@@ -90,10 +89,7 @@ const scraperCrediCuotas = async (dni) => {
     console.log("Texto del botón encontrado:", buttonText);
     if (buttonText !== "Comenzar") {
       console.log("El botón encontrado no tiene el texto 'Comenzar'.");
-      return {
-        success: false,
-        error: "El botón encontrado no tiene el texto 'Comenzar'.",
-      };
+      return { success: false, error: "El botón encontrado no tiene el texto 'Comenzar'." };
     }
     console.log("Haciendo clic en el botón 'Comenzar'...");
     await yellowButton.click();
@@ -104,10 +100,7 @@ const scraperCrediCuotas = async (dni) => {
     const form = await page.$('form[name="initForm"]');
     if (!form) {
       console.log("No se encontró el formulario 'initForm'.");
-      return {
-        success: false,
-        error: "No se encontró el formulario 'initForm'.",
-      };
+      return { success: false, error: "No se encontró el formulario 'initForm'." };
     }
 
     // Select principal
@@ -117,10 +110,7 @@ const scraperCrediCuotas = async (dni) => {
     );
     if (!selectPrincipal) {
       console.log("No se encontró el select principal dentro del formulario.");
-      return {
-        success: false,
-        error: "No se encontró el select dentro del formulario.",
-      };
+      return { success: false, error: "No se encontró el select dentro del formulario." };
     }
     console.log("Seleccionando la opción 'MOTO' (value=2)...");
     await selectPrincipal.select("2");
@@ -138,19 +128,14 @@ const scraperCrediCuotas = async (dni) => {
     }
     if (!subProductoLabel) {
       console.log("No se encontró el label 'Sub Producto'.");
-      return {
-        success: false,
-        error: "No se encontró el label 'Sub Producto'.",
-      };
+      return { success: false, error: "No se encontró el label 'Sub Producto'." };
     }
     console.log("Obteniendo select asociado a 'Sub Producto'...");
     const selectElement = await subProductoLabel.evaluateHandle(
       (label) => label.nextElementSibling
     );
     if (!selectElement) {
-      console.log(
-        "No se encontró el select asociado al label 'Sub Producto'."
-      );
+      console.log("No se encontró el select asociado al label 'Sub Producto'.");
       return {
         success: false,
         error: "No se encontró el select asociado a 'Sub Producto'.",
@@ -166,10 +151,7 @@ const scraperCrediCuotas = async (dni) => {
     );
     if (!dniInput) {
       console.log("No se encontró el input para DNI.");
-      return {
-        success: false,
-        error: "No se encontró el input para DNI.",
-      };
+      return { success: false, error: "No se encontró el input para DNI." };
     }
     console.log("Escribiendo DNI:", dni);
     await dniInput.type(dni.toString(), { delay: 100 });
@@ -182,10 +164,7 @@ const scraperCrediCuotas = async (dni) => {
     );
     if (!personaSelect) {
       console.log("No se encontró el select de PERSONA.");
-      return {
-        success: false,
-        error: "No se encontró el select de PERSONA.",
-      };
+      return { success: false, error: "No se encontró el select de PERSONA." };
     }
 
     // Botón "Continuar"
@@ -193,10 +172,7 @@ const scraperCrediCuotas = async (dni) => {
     const continuarButton = await page.$("button.btn.btn-default-yellow");
     if (!continuarButton) {
       console.log("No se encontró el botón 'Continuar'.");
-      return {
-        success: false,
-        error: "No se encontró el botón 'Continuar'.",
-      };
+      return { success: false, error: "No se encontró el botón 'Continuar'." };
     }
     const continuarText = await page.evaluate(
       (btn) => btn.textContent.trim(),
@@ -210,36 +186,39 @@ const scraperCrediCuotas = async (dni) => {
         error: "El botón encontrado no tiene el texto 'Continuar'.",
       };
     }
-    console.log("Haciendo clic en 'Continuar'...");
+    console.log("Haciendo clic en 'Continuar' y esperando la navegación...");
     await Promise.all([
       continuarButton.click(),
       page.waitForNavigation({ waitUntil: "networkidle2", timeout: 120000 }),
     ]);
-    console.log("Nueva vista cargada tras 'Continuar'.");
 
-    // Esperamos #step-2.panel con reintentos
-    console.log("Esperando selector #step-2.panel...");
-    const stepSelector = "#step-2.panel";
+    // Añadimos 5s extra para dar margen a la SPA
+    console.log("Esperando 5s adicionales tras el click en 'Continuar'...");
+    await page.waitForTimeout(5000);
+
+    // Reintentos para #step-2.panel
+    console.log("Buscando #step-2.panel...");
     let stepLoaded = false;
-    for (let attempt = 0; attempt < 5; attempt++) {
+    for (let attempt = 1; attempt <= 3; attempt++) {
       try {
-        await page.waitForSelector(stepSelector, { timeout: 60000 });
+        await page.waitForSelector("#step-2.panel", { timeout: 30000 });
         stepLoaded = true;
-        console.log("#step-2.panel encontrado!");
+        console.log("#step-2.panel encontrado en el intento:", attempt);
         break;
       } catch (err) {
         console.log(
-          `Intento ${attempt + 1}: No se encontró #step-2.panel. Reintentando...`
+          `Intento ${attempt}: No se encontró #step-2.panel. Reintentando en 3s...`
         );
-        await page.waitForTimeout(3000);
+        if (attempt < 3) {
+          await page.waitForTimeout(3000);
+        } else {
+          console.log("No se encontró #step-2.panel tras 3 intentos.");
+          return {
+            success: false,
+            error: "No se encontró #step-2.panel después de varios intentos.",
+          };
+        }
       }
-    }
-    if (!stepLoaded) {
-      console.log("No se encontró #step-2.panel después de varios intentos.");
-      return {
-        success: false,
-        error: "No se encontró #step-2.panel después de varios intentos.",
-      };
     }
 
     // Monto
@@ -292,29 +271,22 @@ const scraperCrediCuotas = async (dni) => {
     };
     console.log("Objeto final a devolver:", objetoFinal);
 
-    // Cerramos el navegador y retornamos
     console.log("Cerrando navegador...");
     await browser.close();
     console.log("Navegador cerrado. Devolviendo objeto final...");
-
     return objetoFinal;
   } catch (error) {
-    // Si ocurre un error fuera de los retornos controlados
     console.log("Error inesperado:", error);
     if (browser) {
       await browser.close();
       console.log("Navegador cerrado tras el error inesperado.");
     }
-    // Retornamos un objeto de error con el mensaje
-    return {
-      success: false,
-      error: error.message || "Error desconocido",
-    };
+    return { success: false, error: error.message || "Error desconocido" };
   }
 };
-export default scraperCrediCuotas;
 
-scraperCrediCuotas(20471170)
+export default scraperCrediCuotas2;
 
-
-
+// Ejemplo de uso:
+//scraperCrediCuotas2(20471170)
+  
