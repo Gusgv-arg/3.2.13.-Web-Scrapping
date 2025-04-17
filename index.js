@@ -34,7 +34,7 @@ app.get("/scrape/facebook", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Servidor de Scrapin en Render prendido!");
+  res.send("Servidor de Scrapin en Render prendido!!");
 });
 
 app.listen(PORT, () => {

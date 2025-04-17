@@ -288,5 +288,5 @@ const scraperCrediCuotas2 = async (dni) => {
 export default scraperCrediCuotas2;
 
 // Ejemplo de uso:
-//scraperCrediCuotas2(20471170)
+scraperCrediCuotas2(21480913)
   
