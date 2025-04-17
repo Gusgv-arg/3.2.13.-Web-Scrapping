@@ -34,6 +34,7 @@ app.get("/scrape/facebook", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
+  console.log("Prendieron el servidor de Scraping en Render")
   res.send("Servidor de Scrapin en Render prendido!!");
 });
 
