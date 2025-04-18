@@ -5,8 +5,16 @@ const scraperCrediCuotas = async (dni) => {
   try {
     console.log("Iniciando Puppeteer... (headless: true)");
     browser = await puppeteer.launch({
-      headless: false,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      headless: true, // Cambiar a false para ver el navegador
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-accelerated-2d-canvas',
+        '--no-first-run',
+        '--no-zygote',
+        '--disable-gpu'
+    ],
     });
 
     const page = await browser.newPage();

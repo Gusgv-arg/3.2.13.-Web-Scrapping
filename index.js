@@ -9,6 +9,12 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
 let contador = 1
+
+app.get("/", (req, res) => {
+  console.log("Prendieron el servidor de Scraping en Render")
+  res.send("Servidor de Scrapin en Render prendido!!");
+});
+
 app.get("/scrape/mercado_libre", async (req, res) => {
   console.log("Api de Scrape Mercado Libre:", contador)
   contador ++
@@ -33,10 +39,6 @@ app.get("/scrape/facebook", async (req, res) => {
   res.status(200).send(allProducts)
 });
 
-app.get("/", (req, res) => {
-  console.log("Prendieron el servidor de Scraping en Render")
-  res.send("Servidor de Scrapin en Render prendido!!");
-});
 
 app.listen(PORT, () => {
   console.log(`Server running on port: ${PORT}`);
