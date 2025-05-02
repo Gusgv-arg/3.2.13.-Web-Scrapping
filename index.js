@@ -12,7 +12,8 @@ let contador = 1
 
 app.get("/", (req, res) => {
   console.log("Prendieron el servidor de Scraping en Render")
-  res.send("Servidor de Scrapin en Render prendido!!");
+  res.status(200).send("Servidor de Scrapin en Render prendido!!");
+  //res.send("Servidor de Scrapin en Render prendido!!");
 });
 
 app.get("/scrape/mercado_libre", async (req, res) => {
