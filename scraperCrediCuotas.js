@@ -322,7 +322,7 @@ const scraperCrediCuotas = async (dni) => {
 };
 export default scraperCrediCuotas;
 
-scraperCrediCuotas(20471170)
+//scraperCrediCuotas(20471170)
 
 
 
